@@ -63,3 +63,5 @@ The following is an account of the year (post-1999) where the most number of pho
 
 ![image](https://github.com/WJGardnerJr/COP4020-Alternative-Language-Project-in-R/assets/135628958/d021103c-fce8-4535-9fce-30ccdd30923f)
 
+Big-O runtime analysis is included in the comments. Feel free to use Ctrl-F to find "Runtime." It is present for all major functions. For all intents and purposes, the non-interactive versions possess the same runtime.
+
