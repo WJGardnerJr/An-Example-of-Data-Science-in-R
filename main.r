@@ -626,3 +626,5 @@ cell_data <- lapply(sorted_keys, function(key) {
     stop("The retrieved item is not a Cell object.") # Added error message for debugging/exception handling
   }
 })
+# Combine data frames into a single data frame
+cell_data_combined <- do.call(rbind, cell_data)
