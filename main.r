@@ -352,3 +352,44 @@ delete_cell_from_map <- function(cell_map, data_frame) {
   })
   return(data_frame)  # Return the original data_frame if no deletion is performed
 }
+
+# This function calculates and outputs statistics for each column in the data frame.
+# It accepts a data frame and returns a .txt file containing the most common value for
+# non-numeric columns and statistics for each numeric column, comprised of the 
+# minimum, maximum, average, standard deviation, and variance.
+calc_stats_cells_and_output <- function(cell_data) {
+  # Define the output file name
+  output_file <- "stats.txt"
+  # Open a connection to the output file safely
+  tryCatch({
+    file_conn <- file(output_file, "w") # opens output in write mode
+    # Iterates through each column to calculate and format statistics
+    for (col_name in names(cell_data)) {
+      column_data <- cell_data[[col_name]]
+      # Writes the column name as a header for each block
+      writeLines(sprintf("\n%s:", col_name), file_conn)
+      # Checks if the column is numeric or character and write statistics accordingly
+      if (is.numeric(column_data)) {
+        stats <- sprintf("Min: %s\nMax: %s\nAvg: %s\nStd Deviation: %s\nVariance: %s",
+                          min(column_data, na.rm = TRUE),
+                          max(column_data, na.rm = TRUE),
+                          mean(column_data, na.rm = TRUE),
+                          sd(column_data, na.rm = TRUE),
+                          var(column_data, na.rm = TRUE))
+        writeLines(stats, file_conn)
+      } else if (is.character(column_data)) {
+        most_common <- {
+          ux <- unique(column_data[!is.na(column_data)])
+          if (length(ux) == 0) NA else ux[which.max(tabulate(match(column_data, ux)))]
+        }
+        writeLines(sprintf("Most Common: %s", most_common), file_conn)
+      }
+    }
+    # Closes the file connection inside tryCatch to ensure it always gets closed
+    close(file_conn)
+  }, error = function(e) {
+    cat("An error occurred: ", e$message, "\n")
+    # Close the file connection in case it's still open when an error occurs
+    try(close(file_conn), silent = TRUE)
+  })
+}
