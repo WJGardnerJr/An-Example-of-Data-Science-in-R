@@ -255,12 +255,10 @@ create_and_clean_cells <- function(df) {
 add_cell_to_map <- function(cell_map, data_frame) {
   last_row <- nrow(data_frame) + 1
   data_frame <- rbind(data_frame, NA)
-
   for (column_name in names(data_frame)) {
     repeat {
       input_prompt <- paste("Enter new value for", column_name, ifelse(column_name == "display_size", "(in inches):", ":"))
       input_value <- readline(prompt = input_prompt)
-
       if (input_value == "") {
         cat("Input cannot be empty. Please enter a value.\n")
       } else {
