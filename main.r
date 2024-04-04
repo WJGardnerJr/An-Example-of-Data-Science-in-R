@@ -498,6 +498,33 @@ update_data <- function(data_frame) {
   write.csv(data_frame, "updated_data.csv", row.names = FALSE) # Write the updated data frame to a .csv file
 }
 
+######################################################
+# Non-interactive functions
+######################################################
+
+# This is a non-interactive version of add_cell_to_map. It creates a new cell
+# object and adds it to the cell_map. It also writes the updated data frame
+# to a .csv file. It returns the updated cell_map.
+add_cell_to_map_ni <- function(cell_map, data_frame) {
+  last_row <- nrow(data_frame)
+  for (column_name in names(data_frame)) {
+    if (is.numeric(data_frame[[column_name]])) {
+      data_frame[last_row, column_name] <- 1111  # new numeric value
+    } else if (column_name == "display_size") {
+      data_frame[last_row, column_name] <- "new_value inches"  # specific case for display_size
+    } else {
+      data_frame[last_row, column_name] <- "new_value"  # new string value
+    }
+  }
+  new_cell <- data_frame[last_row, ]  # Assuming this row can represent a Cell
+  next_index <- length(ls(envir = cell_map)) + 1
+  key <- paste("Cell", next_index, sep = "_")
+  cell_map[[key]] <- new_cell
+  write.csv(data_frame, "add_example.csv", row.names = FALSE) # Write the updated data frame to a .csv file
+  return(cell_map)
+}
+
+
 #######################################################
 # Main program starts here -- R has no "main" function
 #######################################################
