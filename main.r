@@ -715,6 +715,38 @@ test_that ("Export test", {
   expect_true(file.exists("cleaned_data.csv"))
 })
 
+# Unit test #7 : Tests the update functionality (non-interactive)
+test_that ("Update test", {
+  data <- read.csv("cells.csv")
+  cell_map <- create_and_clean_cells(data)
+  # Here we recreate cell_data_combined
+  sorted_keys <- names(cell_map)[order(as.numeric(sub("Cell_", "", names(cell_map))))]
+  cell_data <- lapply(sorted_keys, function(key) {
+    cell <- cell_map[[key]]
+    if (class(cell) == "Cell") {
+      data.frame(
+        oem = get_oem(cell),
+        model = get_model(cell),
+        launch_announced = get_launch_announced(cell),
+        launch_status = get_launch_status(cell),
+        body_dimensions = get_body_dimensions(cell),
+        body_weight = get_body_weight(cell),
+        body_sim = get_body_sim(cell),
+        display_type = get_display_type(cell),
+        display_size = get_display_size(cell),
+        display_resolution = get_display_resolution(cell),
+        features_sensors = get_features_sensors(cell),
+        platform_os = get_platform_os(cell)
+      )
+    } else {
+      stop("The retrieved item is not a Cell object.")
+    }
+  })
+  cell_data_combined <- do.call(rbind, cell_data)
+  update_data_ni(cell_data_combined)
+  expect_true(file.exists("updated_data_ni.csv"))
+})
+
 #######################################################
 # Main program starts here -- R has no "main" function
 #######################################################
