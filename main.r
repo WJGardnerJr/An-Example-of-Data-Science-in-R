@@ -447,3 +447,53 @@ print_unique_values <- function(data) {
   # Close the file connection
   close(file_conn)
 }
+
+# This function exports the data frame to a .csv file.
+export_to_csv <- function(data_frame, file_name = "cleaned_data.csv") {
+  write.csv(data_frame, file_name, row.names = FALSE)
+}
+
+# This function updates the data frame with user input.
+# It accepts a data frame and returns the updated data frame.
+# It prompts the user for the row number, column name, and new value.
+# If the row number is valid, it prompts the user if they want to update the column.
+# If the column name is valid, it updates the data frame with the new value.
+# Finally, it returns the updated data frame.
+update_data <- function(data_frame) {
+  # Prompt the user for the row number
+  cat("Enter the row number to update (e.g., 1 for the first row): \n")
+  row_number <- as.integer(readline())
+
+  # Check if the row number is valid (in range)
+  if (row_number < 1 || row_number > nrow(data_frame)) {
+    cat("Row number is out of range.\n")
+    return(data_frame)
+  }
+
+  # Iterate over all columns to prompt for updates
+  for (column_name in names(data_frame)) {
+    current_value <- data_frame[row_number, column_name]  # Get the current value for this column
+    cat("Current value for", column_name, "is", current_value, "\n")  # Print the current value
+    
+    # Prompt the user if they want to update this column
+    update_prompt <- readline(prompt = paste("Update", column_name, "? (yes/no): "))
+    
+    # Pressing Enter will not update the column, and skips the prompt.
+    # Pressing 'n' or 'no' will not update the column.
+    # Pressing 'y' or 'yes' will update the column.
+    if (tolower(update_prompt) == "yes" || tolower(update_prompt) == "y") {
+      # Prompt for the new value
+      new_value <- readline(prompt = paste("Enter new value for", column_name, ": "))
+      
+      # Update the data frame with the new value
+      if (is.numeric(data_frame[[column_name]])) {
+        data_frame[row_number, column_name] <- as.numeric(new_value)
+      } else if (is.integer(data_frame[[column_name]])) {
+        data_frame[row_number, column_name] <- as.integer(new_value)
+      } else {
+        data_frame[row_number, column_name] <- new_value
+      }
+    }
+  }
+  write.csv(data_frame, "updated_data.csv", row.names = FALSE) # Write the updated data frame to a .csv file
+}
