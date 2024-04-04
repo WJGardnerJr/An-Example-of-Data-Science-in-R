@@ -524,6 +524,46 @@ add_cell_to_map_ni <- function(cell_map, data_frame) {
   return(cell_map)
 }
 
+# This is a non-interactive version of delete_cell_from_map. It deletes the
+# first cell from the cell_map and the data_frame. It also prints the first 5
+# rows of the data_frame, but each row vertically. It returns the updated
+# cell_map.
+
+delete_cell_from_map_ni <- function(cell_map, data_frame) {
+  # Delete the first cell
+  cell_key <- "Cell_1"
+  if (exists(cell_key, envir = cell_map)) {
+    rm(list = cell_key, envir = cell_map)  # Delete from cell_map
+    if (nrow(data_frame) > 0) {
+      data_frame <- data_frame[-1, ]  # Delete the first row from data_frame
+      cat("Cell with key", cell_key, "deleted successfully.\n")
+    }
+  } else {
+    cat("Cell with key", cell_key, "not found.\n")
+  }
+
+  # Print the first 5 rows of the data_frame, but each row vertically
+  output <- character()  # Initialize an empty character vector
+  for (i in 1:min(5, nrow(data_frame))) { # Print only the first 5 rows
+    output <- c(output, "\n====================\n")
+    output <- c(output, sprintf("Row %d:\n", i))
+    output <- c(output, "====================\n")
+    output <- c(output, capture.output(print(t(data_frame[i, , drop = FALSE]))))
+  }
+  cat("Printing the first 5 cells in the map, each row vertically:\n")
+  cat(output, sep = "\n")
+}
+
+reset_deletion_tracking <- function() {
+  if (exists("deleted_cells", envir = .GlobalEnv)) {
+    rm(deleted_cells, envir = .GlobalEnv)  # Remove the variable from the global environment
+    cat("Deletion tracking has been reset.\n")
+  } else {
+    cat("No deletion tracking to reset.\n")
+  }
+}
+
+
 
 #######################################################
 # Main program starts here -- R has no "main" function
