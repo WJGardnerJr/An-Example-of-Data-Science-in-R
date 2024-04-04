@@ -1,4 +1,26 @@
 # COP4020-Alternative-Language-Project-in-R
+## Notes on Running this Code
+### Per a conversation with Krishna, this code has been written as follows and in two ways: 
+- (i) this code can run as-is in a terminal, whereby all uncommented functions are non-interactive and the code runs with hard-coded additions/changes/deletions and
+- (ii) this code can be run interactively, requiring a local R environment and Rscript, whereby running Rscript.exe and the file is done as follows.
+
+---
+
+### __To run this code interactively:__
+- First, comment out everything in the non-interactive section.
+- Second, uncomment the menu and the unit tests.
+- Third, uncomment the code at the top of the program, which installs the necessary unit test library (if not present--it checks for this).
+- Finally, run the code!
+
+---
+
+### **NOTE FOR VS CODE**: 
+
+Use **Run Source**, and **DO NOT** use Run Code. Run Source runs the code interactively. Run Source is non-interactive.
+Running the code in "interactive mode" in a non-interactive shell can cause issues.
+
+![image](https://github.com/WJGardnerJr/COP4020-Alternative-Language-Project-in-R/assets/135628958/f69390d3-f0db-4626-9514-b10ca10aed8b)
+
 ## Report
 
 I chose to write this program in R and used version 4.3.3. At the time of this writing, this is the most recent
