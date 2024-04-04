@@ -1,0 +1,13 @@
+Column Name          Unique Values       
+oem                  62                  
+model                880                 
+launch_announced     25                  
+launch_status        6                   
+body_dimensions      652                 
+body_weight          226                 
+body_sim             25                  
+display_type         74                  
+display_size         92                  
+display_resolution   282                 
+features_sensors     46                  
+platform_os          67                  
