@@ -150,3 +150,81 @@ setMethod("set_platform_os", "Cell", function(obj, platform_os) {
 
 # Reads the data from the CSV file
 data <- read.csv("cells.csv")
+
+# The following function accepts a column name and a value and returns the appropriate
+# cleaned value. It parses the data in each Cell and returns the appropriate value, 
+# based on the column name, removing any extraneous characters, or returning NA if
+# the value is invalid, empty, -, or some other variation thereof.
+clean_data <- function(value, column_name) {
+  # Handling NA or empty values upfront
+  # This immediately returns appropriate NA based on expected type for the column
+  if (is.na(value) || value == "" || value == "-") {
+    # Returns the appropriate NA based on expected type for the column
+    if (column_name == "launch_announced") {
+      return(NA_integer_) 
+    } else if (column_name == "body_weight") {
+      return(NA_real_)
+    } else if (column_name == "display_size") {
+      return(NA_character_)
+    } else if (column_name == "launch_status") {
+      if (value %in% c("Discontinued", "Cancelled")) {
+        return(value)
+      }
+    } else {
+      return(NA_character_) # Generically, returns NA as a character for most sub-values.
+    }
+  }
+  # Switches through the column, selecting based upon the column name the invalid values
+  # that need to be cleaned up. Replaces said values based upon the aforesaid logic.
+  switch(column_name,
+    launch_announced = {
+      matches <- regmatches(value, regexpr("\\b\\d{4}\\b", value)) # Matches any 4-digit year and uses RegEx to parse it
+      if (length(matches) > 0 && nchar(matches[1]) == 4) {
+        return(as.integer(matches[1]))
+      } else {
+        return(NA_integer_)
+      }
+    },
+    body_weight = {
+      return(as.numeric(sub(" .*", "", value))) # Returns the numeric part of the string
+    },
+    display_size = {
+      matches <- regmatches(value, regexpr("^(\\d+(\\.\\d+)?) inches", value)) # Matches any number of digits and an "inches" and uses RegEx to parse it
+      if (length(matches) > 0) {
+        numeric_part <- as.character(matches[1])
+        if (!is.na(numeric_part)) {
+          return(numeric_part)
+        }
+      }
+      return(NA_character_)  # Return NA if the format does not match or lacking an "inches"
+    },
+    body_sim = {
+      if (value == "Yes" || value == "No") {
+        return(NA_character_) # Return NA if the value is invalid, e.g., if it is Yes/No
+      } else {
+        return(value)
+      }
+    },
+    launch_status = {
+      matches <- regmatches(value, regexpr("\\b\\d{4}\\b", value))
+      if (length(matches) > 0 && nchar(matches[1]) == 4) {
+        return(as.character(matches[1]))
+      } else {
+        return(NA_character_)
+      }
+    },
+    features_sensors = {
+      if (typeof(value) == "integer" || typeof(value) == "double") {
+        return(NA_character_)
+      } else {
+        return(value)
+      }
+    },
+    platform_os = {
+      shortened_value <- sub(",.*", "", value)
+      return(shortened_value)
+    },
+    # Default case
+    as.character(value)
+  )
+}
