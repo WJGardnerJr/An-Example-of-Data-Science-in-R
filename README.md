@@ -2,7 +2,7 @@
 ## Notes on Running this Code
 ### Per a conversation with Krishna, this code has been written as follows and in two ways: 
 - (i) this code can run as-is in a terminal, whereby all uncommented functions are non-interactive and the code runs with hard-coded additions/changes/deletions and
-- (ii) this code can be run interactively, requiring a local R environment and Rscript, whereby running Rscript.exe and the file is done as follows.
+- (ii) this code can be run interactively, requiring a local R environment and Rscript, whereby running Rscript.exe and the file is done as discussed in the section below.
 
 ---
 
