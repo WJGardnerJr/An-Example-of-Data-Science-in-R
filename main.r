@@ -406,9 +406,9 @@ calculate_unique_values_and_output <- function(data) {
   tryCatch({
       output_file <- "uniquevals.txt"
       file_conn <- file(output_file, "w")
-  }, error(function(e) {
+  }, error = function(e) {
     cat("Error: ", e$message, "\n")
-  }))
+  })
   # Write unique values to the file with fixed-width formatting
   cat(sprintf("%-20s %-20s\n", "Column Name", "Unique Values"), file = file_conn)
   for (i in seq_along(unique_counts)) {
@@ -418,3 +418,32 @@ calculate_unique_values_and_output <- function(data) {
   close(file_conn)
 }
 
+# This function prints the unique values for each column in the data frame.
+# It accepts a data frame and returns a .txt file containing the unique values
+# for each column.
+print_unique_values <- function(data) {
+  # Opens a connection to the output file
+  tryCatch({
+    output_file <- "uniquevals.txt"
+    file_conn <- file(output_file, "w")
+  }, error = function(e) {
+    cat("Error: ", e$message, "\n")
+  })
+  
+  # Iterates through each column to print unique values
+  for (col_name in names(data)) {
+    column_data <- data[[col_name]]
+    
+    # Write the column name as a header
+    writeLines(sprintf("\n%s:", col_name), file_conn)
+    
+    # Get unique values and print them
+    unique_values <- unique(na.omit(column_data))
+    for (value in unique_values) {
+      writeLines(sprintf("%s", value), file_conn)
+    }
+  }
+  
+  # Close the file connection
+  close(file_conn)
+}
