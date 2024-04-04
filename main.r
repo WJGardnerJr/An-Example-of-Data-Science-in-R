@@ -648,6 +648,25 @@ test_that("File is not empty", {
    expect_true(nrow(data) == 1000)
 })
 
+# Unit test #2 : Determines if the data types are correct in the objects
+test_that("Object data types", {
+ data <- read.csv("cells.csv")
+ cell_map <- create_and_clean_cells(data)
+ for (key in names(cell_map)) {
+   expect_true(is.character(slot(cell_map[[key]], "oem")), "oem should be character")
+   expect_true(is.character(slot(cell_map[[key]], "model")), "model should be character")
+   expect_true(is.integer(slot(cell_map[[key]], "launch_announced")), "launch_announced should be integer")
+   expect_true(is.character(slot(cell_map[[key]], "launch_status")), "launch_status should be character")
+   expect_true(is.character(slot(cell_map[[key]], "body_dimensions")), "body_dimensions should be character")
+   expect_true(is.numeric(slot(cell_map[[key]], "body_weight")), "body_weight should be numeric")
+   expect_true(is.character(slot(cell_map[[key]], "body_sim")), "body_sim should be character")
+   expect_true(is.character(slot(cell_map[[key]], "display_type")), "display_type should be character")
+   expect_true(is.character(slot(cell_map[[key]], "display_size")), "display_size should be character")
+   expect_true(is.character(slot(cell_map[[key]], "display_resolution")), "display_resolution should be character")
+   expect_true(is.character(slot(cell_map[[key]], "features_sensors")), "features_sensors should be character")
+   expect_true(is.character(slot(cell_map[[key]], "platform_os")), "platform_os should be character")
+ }
+})
 
 #######################################################
 # Main program starts here -- R has no "main" function
