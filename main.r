@@ -670,3 +670,21 @@ cell_data <- lapply(sorted_keys, function(key) {
 })
 # Combine data frames into a single data frame
 cell_data_combined <- do.call(rbind, cell_data)
+
+#===============================================#
+#          Non-Interactive Options
+#===============================================#
+#cat("First, let's add some cells to the CSV at row 1001 and create a new CSV called add_example.csv.\n")
+#add_cell_to_map_ni(cell_objects_map, cell_data_combined)
+#cat("Now, let's delete the cell at row 1 and print the first 5 rows, updated.\n")
+#delete_cell_from_map_ni(cell_objects_map, cell_data_combined)
+#cat("\nNext, let's export the cleaned data to a new CSV called cleaned_data.csv.\n")
+#export_to_csv(cell_data_combined)
+#cat("\nFurther, let's update the data in cleaned CSV and create a new CSV called updated_data.csv.\n")
+#update_data_ni(cell_data_combined)
+#cat("\nContinuing, let's calculate statistics and create a new text file containing all of them called stats.txt.\n")
+#calc_stats_cells_and_output(cell_data_combined)
+#cat("\nLet's calculate unique values and create a new text file containing all of them called uniquevals.txt.\n")
+#calculate_unique_values_and_output(cell_data_combined)
+#cat("\nFinally, let's print the unique values to a new text file called uniquelist.txt.\n")
+#print_unique_values(cell_data_combined)
