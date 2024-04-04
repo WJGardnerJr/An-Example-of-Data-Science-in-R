@@ -233,13 +233,17 @@ create_and_clean_cells <- function(df) {
   cells_map <- new.env()  # Using an environment as an analog to a hashmap
 
   for (i in 1:nrow(df)) { # Iterate through each row and clean the data
-    row_data <- lapply(names(df), function(col_name) {
-      clean_data(df[i, col_name], col_name)
+    tryCatch({ # Added error handling to handle invalid data
+      row_data <- lapply(names(df), function(col_name) {
+        clean_data(df[i, col_name], col_name)
+      })
+      # Ensure row_data now contains correctly typed elements
+      cell_object <- do.call(create_cell, row_data) # Creates the Cell object for each row
+      key <- paste("Cell", i, sep = "_")  # Unique key for each object
+      cells_map[[key]] <- cell_object # Adds the object to the map at the key
+    }, error = function(e) {
+      cat(sprintf("Error in row %d: %s\n", i, e$message))
     })
-    # Ensure row_data now contains correctly typed elements
-    cell_object <- do.call(create_cell, row_data) # Creates the Cell object for each row
-    key <- paste("Cell", i, sep = "_")  # Unique key for each object
-    cells_map[[key]] <- cell_object # Adds the object to the map at the key, with the key being Cell_x, where x is the row number
   }
 
   return(cells_map)
