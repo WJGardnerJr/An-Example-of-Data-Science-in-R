@@ -635,6 +635,20 @@ menu <- function() {
   }
 }
 
+#############################################################
+# UNIT TESTS -- UNCOMMENT THESE TO RUN THEM
+# NOTE, THESE REQUIRE INTERACTIVE MODE 
+# CANNOT BE RUN IN REPL.IT DUE TO REQUIREMENTS IN R.PACKAGES
+# SEE ABOVE AT TOP OF PROGRAM
+#############################################################
+
+# Unit test #1 : Determines if the CSV is read correctly
+test_that("File is not empty", {
+   data <- read.csv("cells.csv")
+   expect_true(nrow(data) == 1000)
+})
+
+
 #######################################################
 # Main program starts here -- R has no "main" function
 #######################################################
@@ -675,22 +689,22 @@ cell_data_combined <- do.call(rbind, cell_data)
 #     Interactive Options -- Uncomment to Run
 #===============================================#
 
-menu()
+#menu() #UNCOMMENT THIS TO RUN IN INTERACTIVE MODE
 
 #===============================================#
 #  Non-Interactive Options -- Uncomment to Run
 #===============================================#
-#cat("First, let's add some cells to the CSV at row 1001 and create a new CSV called add_example.csv.\n")
-#add_cell_to_map_ni(cell_objects_map, cell_data_combined)
-#cat("Now, let's delete the cell at row 1 and print the first 5 rows, updated.\n")
-#delete_cell_from_map_ni(cell_objects_map, cell_data_combined)
-#cat("\nNext, let's export the cleaned data to a new CSV called cleaned_data.csv.\n")
-#export_to_csv(cell_data_combined)
-#cat("\nFurther, let's update the data in cleaned CSV and create a new CSV called updated_data.csv.\n")
-#update_data_ni(cell_data_combined)
-#cat("\nContinuing, let's calculate statistics and create a new text file containing all of them called stats.txt.\n")
-#calc_stats_cells_and_output(cell_data_combined)
-#cat("\nLet's calculate unique values and create a new text file containing all of them called uniquevals.txt.\n")
-#calculate_unique_values_and_output(cell_data_combined)
-#cat("\nFinally, let's print the unique values to a new text file called uniquelist.txt.\n")
-#print_unique_values(cell_data_combined)
+cat("First, let's add some cells to the CSV at row 1001 and create a new CSV called add_example.csv.\n")
+add_cell_to_map_ni(cell_objects_map, cell_data_combined)
+cat("Now, let's delete the cell at row 1 and print the first 5 rows, updated.\n")
+delete_cell_from_map_ni(cell_objects_map, cell_data_combined)
+cat("\nNext, let's export the cleaned data to a new CSV called cleaned_data.csv.\n")
+export_to_csv(cell_data_combined)
+cat("\nFurther, let's update the data in cleaned CSV and create a new CSV called updated_data.csv.\n")
+update_data_ni(cell_data_combined)
+cat("\nContinuing, let's calculate statistics and create a new text file containing all of them called stats.txt.\n")
+calc_stats_cells_and_output(cell_data_combined)
+cat("\nLet's calculate unique values and create a new text file containing all of them called uniquevals.txt.\n")
+calculate_unique_values_and_output(cell_data_combined)
+cat("\nFinally, let's print the unique values to a new text file called uniquelist.txt.\n")
+print_unique_values(cell_data_combined)
