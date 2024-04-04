@@ -360,29 +360,53 @@ delete_cell_from_map <- function(cell_map, data_frame) {
 calc_stats_cells_and_output <- function(cell_data) {
   # Define the output file name
   output_file <- "stats.txt"
+
   # Open a connection to the output file safely
   tryCatch({
-    file_conn <- file(output_file, "w") # opens output in write mode
+    file_conn <- file(output_file, "w")  # opens output in write mode
+
     # Iterates through each column to calculate and format statistics
     for (col_name in names(cell_data)) {
       column_data <- cell_data[[col_name]]
       # Writes the column name as a header for each block
       writeLines(sprintf("\n%s:", col_name), file_conn)
-      # Checks if the column is numeric or character and write statistics accordingly
+
+      # Checks if the column is numeric or character and writes statistics accordingly
       if (is.numeric(column_data)) {
-        stats <- sprintf("Min: %s\nMax: %s\nAvg: %s\nStd Deviation: %s\nVariance: %s",
-                          min(column_data, na.rm = TRUE),
-                          max(column_data, na.rm = TRUE),
-                          mean(column_data, na.rm = TRUE),
-                          sd(column_data, na.rm = TRUE),
-                          var(column_data, na.rm = TRUE))
+        oem_data <- cell_data$oem  # Associate each stat with its OEM
+
+        # Calculate statistics and find corresponding OEM for numeric columns
+        min_value <- min(column_data, na.rm = TRUE)
+        max_value <- max(column_data, na.rm = TRUE)
+        avg_value <- mean(column_data, na.rm = TRUE)
+        std_dev_value <- sd(column_data, na.rm = TRUE)
+        var_value <- var(column_data, na.rm = TRUE)
+
+        min_oem <- oem_data[which.min(column_data)]
+        max_oem <- oem_data[which.max(column_data)]
+
+        stats <- sprintf("Min: %s (oem: %s)\nMax: %s (oem: %s)\nAvg: %s\nStd Deviation: %s\nVariance: %s",
+                          min_value, min_oem,
+                          max_value, max_oem,
+                          avg_value,
+                          std_dev_value,
+                          var_value)
         writeLines(stats, file_conn)
-      } else if (is.character(column_data)) {
+      } else if (is.character(column_data) && col_name != "oem") {
         most_common <- {
           ux <- unique(column_data[!is.na(column_data)])
           if (length(ux) == 0) NA else ux[which.max(tabulate(match(column_data, ux)))]
         }
         writeLines(sprintf("Most Common: %s", most_common), file_conn)
+      }
+
+      # Handle the OEM column specifically
+      if (col_name == "oem") {
+        most_common_oem <- {
+          ux <- unique(column_data[!is.na(column_data)])
+          if (length(ux) == 0) NA else ux[which.max(tabulate(match(column_data, ux)))]
+        }
+        writeLines(sprintf("Most Common OEM: %s", most_common_oem), file_conn)
       }
     }
     # Closes the file connection inside tryCatch to ensure it always gets closed
