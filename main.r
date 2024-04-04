@@ -497,3 +497,37 @@ update_data <- function(data_frame) {
   }
   write.csv(data_frame, "updated_data.csv", row.names = FALSE) # Write the updated data frame to a .csv file
 }
+
+#######################################################
+# Main program starts here -- R has no "main" function
+#######################################################
+
+cell_objects_map <- create_and_clean_cells(data) # Create and clean the cell objects map
+
+# Sort the keys based on the numeric part of the key
+sorted_keys <- names(cell_objects_map)[order(as.numeric(sub("Cell_", "", names(cell_objects_map))))]
+
+# Extract slot values from each Cell object using the sorted keys
+cell_data <- lapply(sorted_keys, function(key) {
+  # Retrieve the actual Cell object from the map using the key
+  cell <- cell_objects_map[[key]]
+  # Check if the retrieved item is indeed a Cell object before extracting data
+  if (class(cell) == "Cell") { # Added check for class
+    data.frame(
+      oem = get_oem(cell),
+      model = get_model(cell),
+      launch_announced = get_launch_announced(cell),
+      launch_status = get_launch_status(cell),
+      body_dimensions = get_body_dimensions(cell),
+      body_weight = get_body_weight(cell),
+      body_sim = get_body_sim(cell),
+      display_type = get_display_type(cell),
+      display_size = get_display_size(cell),
+      display_resolution = get_display_resolution(cell),
+      features_sensors = get_features_sensors(cell),
+      platform_os = get_platform_os(cell)
+    )
+  } else {
+    stop("The retrieved item is not a Cell object.") # Added error message for debugging/exception handling
+  }
+})
