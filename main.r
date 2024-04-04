@@ -371,7 +371,7 @@ calc_stats_cells_and_output <- function(cell_data) {
       # Writes the column name as a header for each block
       writeLines(sprintf("\n%s:", col_name), file_conn)
 
-      # Checks if the column is numeric or character and writes statistics accordingly
+      # Process numeric and character data
       if (is.numeric(column_data)) {
         oem_data <- cell_data$oem  # Associate each stat with its OEM
 
@@ -411,11 +411,14 @@ calc_stats_cells_and_output <- function(cell_data) {
     }
 
     # After all stats are written, check for phones announced and released in different years
-    if ("announced_date" %in% names(cell_data) && "released_date" %in% names(cell_data)) {
-      announced_and_released_diff <- cell_data$announced_date != cell_data$released_date
-      if (any(announced_and_released_diff)) {
+    if ("launch_announced" %in% names(cell_data) && "launch_status" %in% names(cell_data)) {
+      cell_data$launch_announced <- as.Date(cell_data$launch_announced)
+      cell_data$launch_status <- as.Date(cell_data$launch_status)
+      
+      different_years_indices <- which(format(cell_data$launch_announced, "%Y") != format(cell_data$released_date, "%Y"))
+      if (length(different_years_indices) > 0) {
+        different_years_data <- cell_data[different_years_indices, c("oem", "model", "launch_announced", "launch_status")]
         writeLines("\nPhones announced and released in different years:", file_conn)
-        different_years_data <- cell_data[announced_and_released_diff, c("oem", "model", "announced_date", "released_date")]
         writeLines(capture.output(print(different_years_data)), file_conn)
       } else {
         writeLines("\nNo phones were announced and released in different years.", file_conn)
