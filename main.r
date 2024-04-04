@@ -148,3 +148,5 @@ setMethod("set_platform_os", "Cell", function(obj, platform_os) {
   obj
 })
 
+# Reads the data from the CSV file
+data <- read.csv("cells.csv")
