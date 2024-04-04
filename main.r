@@ -252,6 +252,7 @@ create_and_clean_cells <- function(df) {
 # This is the interactive version of the function that adds a new Cell object to the map.
 # It is a member of the Cell class, and prompts the user for each field and reads the input. 
 # If the input is invalid or empty, it repeats the prompt. The function returns the updated map.
+# Runtime O(m), where m is the number of columns in data_frame.
 add_cell_to_map <- function(cell_map, data_frame) {
   last_row <- nrow(data_frame) + 1
   data_frame <- rbind(data_frame, NA)
@@ -306,6 +307,7 @@ add_cell_to_map <- function(cell_map, data_frame) {
 # If it has already been deleted, it prints a message and does not delete the object.
 # The function returns the updated map.
 # The function is a member of the Cell class.
+# Runtime O(m), where m is the number of columns in data_frame.
 delete_cell_from_map <- function(cell_map, data_frame) {
   if (!exists("deleted_cells", envir = .GlobalEnv)) {
     .GlobalEnv$deleted_cells <- integer(0)  # Initialize global variable to track deleted cells
@@ -357,6 +359,7 @@ delete_cell_from_map <- function(cell_map, data_frame) {
 # It accepts a data frame and returns a .txt file containing the most common value for
 # non-numeric columns and statistics for each numeric column, comprised of the 
 # minimum, maximum, average, standard deviation, and variance.
+# Runtime O(m x n), where m is the number of column and n is the number of rows.
 calc_stats_cells_and_output <- function(cell_data) {
   # Define the output file name
   output_file <- "stats.txt"
@@ -461,6 +464,7 @@ calc_stats_cells_and_output <- function(cell_data) {
 # This function calculates and outputs the number of unique values for each column in the data frame.
 # It accepts a data frame and returns a .txt file containing the number of unique values
 # for each column.
+# Runtime O(m x n), where m is the number of columns in data_frame, and n is the number of rows in data_frame.
 calculate_unique_values_and_output <- function(data) {
   unique_counts <- sapply(data, function(col) length(unique(na.omit(col))))
 
@@ -485,6 +489,7 @@ calculate_unique_values_and_output <- function(data) {
 # This function prints the unique values for each column in the data frame.
 # It accepts a data frame and returns a .txt file containing the unique values
 # for each column.
+# Runtime O(m x n), where m is the number of columns in data_frame, and n is the number of rows in data_frame.
 print_unique_values <- function(data) {
   # Opens a connection to the output file
   tryCatch({
@@ -513,6 +518,7 @@ print_unique_values <- function(data) {
 }
 
 # This function exports the data frame to a .csv file.
+# Runtime O(m x n), where m is the number of columns in data_frame, and n is the number of rows in data_frame.
 export_to_csv <- function(data_frame, file_name = "cleaned_data.csv") {
   write.csv(data_frame, file_name, row.names = FALSE)
 }
@@ -523,6 +529,7 @@ export_to_csv <- function(data_frame, file_name = "cleaned_data.csv") {
 # If the row number is valid, it prompts the user if they want to update the column.
 # If the column name is valid, it updates the data frame with the new value.
 # Finally, it returns the updated data frame.
+# Runtime O(m x n), where m is the number of columns in data_frame, and n is the number of rows in data_frame.
 update_data <- function(data_frame) {
   # Prompt the user for the row number
   cat("Enter the row number to update (e.g., 1 for the first row): \n")
@@ -564,6 +571,7 @@ update_data <- function(data_frame) {
 
 ######################################################
 # Non-interactive functions
+# Runtimes are same for both non-interactive and interactive versions.
 ######################################################
 
 # This is a non-interactive version of add_cell_to_map. It creates a new cell
