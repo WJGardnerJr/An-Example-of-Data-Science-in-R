@@ -688,6 +688,33 @@ test_that("NA test", {
  }
 })
 
+# Unit test #4 : Tests the add_cell function
+test_that("Adding test", {
+  data <- read.csv("cells.csv")
+  cell_map <- create_and_clean_cells(data)
+  cell_data_combined <- do.call(rbind, cell_data)
+  add_cell_to_map_ni(cell_map, cell_data_combined)
+  expect_true(length(ls(envir = cell_map)) == 1001)
+})
+
+# Unit test #5 : Tests the delete_cell function
+test_that("Deleting test", {
+  data <- read.csv("cells.csv")
+  cell_map <- create_and_clean_cells(data)
+  cell_data_combined <- do.call(rbind, cell_data)
+  delete_cell_from_map_ni(cell_map, cell_data_combined)
+  expect_true(length(ls(envir = cell_map)) == 999)
+})
+
+# Unit test #6 : Tests the export_to_csv function
+test_that ("Export test", {
+  data <- read.csv("cells.csv")
+  cell_map <- create_and_clean_cells(data)
+  cell_data_combined <- do.call(rbind, cell_data)
+  export_to_csv(cell_data_combined)
+  expect_true(file.exists("cleaned_data.csv"))
+})
+
 #######################################################
 # Main program starts here -- R has no "main" function
 #######################################################
