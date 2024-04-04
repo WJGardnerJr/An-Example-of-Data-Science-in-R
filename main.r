@@ -504,8 +504,12 @@ update_data <- function(data_frame) {
 calculate_unique_values_and_output <- function(data) {
   unique_counts <- sapply(data, function(col) length(unique(na.omit(col))))
   # Open a connection to the output file
-  output_file <- "uniquevals.txt"
-  file_conn <- file(output_file, "w")
+  tryCatch({ # Open a connection to the output file safely
+    output_file <- "uniquevals.txt"
+    file_conn <- file(output_file, "w")
+  }, error = function(e) {
+    cat("Error: ", e$message, "\n")
+  })  
   # Write unique values to the file with fixed-width formatting
   cat(sprintf("%-20s %-20s\n", "Column Name", "Unique Values"), file = file_conn)
   for (i in seq_along(unique_counts)) {
