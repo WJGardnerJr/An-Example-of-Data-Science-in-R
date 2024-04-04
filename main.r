@@ -250,8 +250,8 @@ create_and_clean_cells <- function(df) {
 }
 
 # This is the interactive version of the function that adds a new Cell object to the map.
-# It prompts the user for each field and reads the input. If the input is invalid or empty,
-# it repeats the prompt. The function returns the updated map.
+# It is a member of the Cell class, and prompts the user for each field and reads the input. 
+# If the input is invalid or empty, it repeats the prompt. The function returns the updated map.
 add_cell_to_map <- function(cell_map, data_frame) {
   last_row <- nrow(data_frame) + 1
   data_frame <- rbind(data_frame, NA)
@@ -298,4 +298,57 @@ add_cell_to_map <- function(cell_map, data_frame) {
     cat("Error writing to file: ", e$message, "\n")
   })
   return(cell_map)
+}
+
+# This is the interactive version of the function that deletes a Cell object from the map. 
+# It prompts the user for the number of the cell to delete and checks if it has already been deleted.
+# If it has not, it deletes the object from the map and returns the updated map.
+# If it has already been deleted, it prints a message and does not delete the object.
+# The function returns the updated map.
+# The function is a member of the Cell class.
+delete_cell_from_map <- function(cell_map, data_frame) {
+  if (!exists("deleted_cells", envir = .GlobalEnv)) {
+    .GlobalEnv$deleted_cells <- integer(0)  # Initialize global variable to track deleted cells
+  }
+  cat("\nWhen you are done, a new .csv will be created reflecting your deletions.\n")
+  repeat {
+    cell_number_str <- readline(prompt = "Enter the number of the cell you want to delete (q to quit): ")
+    if (toupper(cell_number_str) == "Q") {
+      cat("Exiting deletion process.\n")
+      break
+    }
+    tryCatch({ # Added error handling to handle invalid input
+      cell_number <- as.numeric(cell_number_str)
+      if (!is.na(cell_number) && cell_number > 0 && cell_number <= nrow(data_frame)) {
+        cell_key <- paste("Cell_", cell_number, sep = "")
+        
+        if (cell_number %in% .GlobalEnv$deleted_cells) {
+          cat(paste("Cell", cell_number, "has already been deleted.\n"))
+        } else if (exists(cell_key, envir = cell_map)) {
+          rm(list = cell_key, envir = cell_map)  # Delete from cell_map
+          .GlobalEnv$deleted_cells <- c(.GlobalEnv$deleted_cells, cell_number)  # Add to the list of deleted cells
+          cat(paste("Cell with key", cell_key, "deleted successfully.\n"))
+        } else {
+          cat(paste("Cell with key", cell_key, "not found in the map. Please try again.\n"))
+        }
+      } else {
+        cat("Invalid cell number. Please enter a valid numeric value.\n")
+      }
+    }, error = function(e) {
+      cat("Error in processing input or deleting cell: ", e$message, "\n")
+    })
+  }
+  # Safely attempts to create a modified data frame excluding the deleted cells
+  tryCatch({
+    if (length(.GlobalEnv$deleted_cells) > 0) {
+      temp_frame <- data_frame[-.GlobalEnv$deleted_cells, ]
+      write.csv(temp_frame, "updated_and_deleted.csv", row.names = FALSE)
+      cat("Updated data frame saved.\n")
+    } else {
+      cat("No cells deleted. No changes made to the data frame.\n")
+    }
+  }, error = function(e) {
+    cat("Error in modifying data frame or writing to file: ", e$message, "\n")
+  })
+  return(data_frame)  # Return the original data_frame if no deletion is performed
 }
