@@ -206,7 +206,7 @@ clean_data <- function(value, column_name) {
       }
     },
     launch_status = {
-      matches <- regmatches(value, regexpr("\\b\\d{4}\\b", value))
+      matches <- regmatches(value, regexpr("\\b\\d{4}\\b", value)) # Matches any 4-digit year and uses RegEx to parse it
       if (length(matches) > 0 && nchar(matches[1]) == 4) {
         return(as.character(matches[1]))
       } else {
@@ -214,17 +214,17 @@ clean_data <- function(value, column_name) {
       }
     },
     features_sensors = {
-      if (typeof(value) == "integer" || typeof(value) == "double") {
+      if (typeof(value) == "integer" || typeof(value) == "double") { # If the value is numerical, return NA
         return(NA_character_)
       } else {
-        return(value)
+        return(value) # Otherwise, return the value
       }
     },
     platform_os = {
-      shortened_value <- sub(",.*", "", value)
+      shortened_value <- sub(",.*", "", value) # Removes all after the first comma
       return(shortened_value)
     },
     # Default case
-    as.character(value)
+    as.character(value) # Returns the value as a character in the default case.
   )
 }
