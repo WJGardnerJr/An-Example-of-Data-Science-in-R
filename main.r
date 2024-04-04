@@ -747,6 +747,33 @@ test_that ("Update test", {
   expect_true(file.exists("updated_data_ni.csv"))
 })
 
+# Unit test #8 : Tests the statistics analyzer
+test_that("Statistics Analyzer test", {
+  data <- read.csv("cells.csv")
+  cell_map <- create_and_clean_cells(data)
+  cell_data_combined <- do.call(rbind, cell_data)
+  calc_stats_cells_and_output(cell_data_combined)
+  expect_true(file.exists("stats.txt"))
+})
+
+# Unit test #9 : Tests the unique value calculator
+test_that("Unique Value Calculator test", {
+  data <- read.csv("cells.csv")
+  cell_map <- create_and_clean_cells(data)
+  cell_data_combined <- do.call(rbind, cell_data)
+  calculate_unique_values_and_output(cell_data_combined)
+  expect_true(file.exists("uniquevals.txt"))
+})
+
+# Unit test #10 : Tests the unique value printer
+test_that("Print Unique Values test", {
+  data <- read.csv("cells.csv")
+  cell_map <- create_and_clean_cells(data)
+  cell_data_combined <- do.call(rbind, cell_data)
+  print_unique_values(cell_data_combined)
+  expect_true(file.exists("uniquelist.txt"))
+})
+
 #######################################################
 # Main program starts here -- R has no "main" function
 #######################################################
