@@ -563,7 +563,35 @@ reset_deletion_tracking <- function() {
   }
 }
 
-
+# This is a non-interactive version of update_data. It updates the data_frame
+# with new values. It also prints the first 5 rows of the data_frame, but
+# each row vertically. It returns the updated data_frame.
+update_data_ni <- function(data_frame) {
+  row_number <- 1 # Select the first row to update
+  updated_value <- "new_value" # Set the updated character value to "new_value"
+  updated_numeric <- 9999 # Set the updated numeric value to 9999
+  
+  # Iterate over all columns to automatically perform updates
+  for (column_name in names(data_frame)) {
+    if (is.numeric(data_frame[[column_name]])) {
+      data_frame[row_number, column_name] <- updated_numeric
+    } else if (column_name == "display_size") {
+      data_frame[row_number, column_name] <- "new_value inches" # specific case for display_size
+    } else {
+      data_frame[row_number, column_name] <- updated_value
+    }
+  }
+  
+  # Print the first 5 rows of the data_frame, but each row vertically
+  cat("Printing the first 5 cells in the map, each row vertically:\n")
+  for (i in 1:min(5, nrow(data_frame))) {
+    cat("\n====================\n")
+    cat(sprintf("Row %d:\n", i))
+    cat("====================\n")
+    print(t(data_frame[i, , drop = FALSE]))
+  }
+  write.csv(data_frame, "updated_data_ni.csv", row.names = FALSE) # Write the updated data frame to a .csv file
+}
 
 #######################################################
 # Main program starts here -- R has no "main" function
