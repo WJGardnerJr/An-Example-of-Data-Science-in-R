@@ -424,7 +424,7 @@ calculate_unique_values_and_output <- function(data) {
 print_unique_values <- function(data) {
   # Opens a connection to the output file
   tryCatch({
-    output_file <- "uniquevals.txt"
+    output_file <- "uniquelist.txt"
     file_conn <- file(output_file, "w")
   }, error = function(e) {
     cat("Error: ", e$message, "\n")
