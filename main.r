@@ -426,7 +426,15 @@ calc_stats_cells_and_output <- function(cell_data) {
       } else {
           writeLines("\nNo differences found between launch announced and launch status years.", file_conn)
       }
-    }   
+    }
+    if ("features_sensors" %in% names(cell_data)) {
+      # Count entries with only one feature sensor (no comma present)
+      single_feature_sensor_count <- sum(!grepl(",", cell_data$features_sensors))
+      # Count entries with more than one feature sensor (comma present)
+      multiple_feature_sensor_count <- sum(grepl(",", cell_data$features_sensors))
+      writeLines(sprintf("\nCount of phones with only one feature/sensor: %d", single_feature_sensor_count), file_conn)
+      writeLines(sprintf("Count of phones with more than one feature/sensor: %d", multiple_feature_sensor_count), file_conn)
+    }
   # Closes the file connection inside tryCatch to ensure it always gets closed
   close(file_conn)
   }, error = function(e) {
