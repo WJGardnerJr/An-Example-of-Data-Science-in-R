@@ -594,6 +594,48 @@ update_data_ni <- function(data_frame) {
 }
 
 #######################################################
+# Menu function
+#######################################################
+menu <- function() {
+  repeat {
+    data_frame <- cell_data_combined 
+    cat("\nMenu Options:\n")
+    cat("1: Add cells to the end and print the new CSV\n")
+    cat("2: Remove a cell from the CSV and print a new CSV\n")
+    cat("3: Export the current new CSV\n")
+    cat("4: Update specified data and print a new CSV\n")
+    cat("5: Calculate statistics\n")
+    cat("6: Calculate unique values and give a descriptive .txt file\n")
+    cat("7: Print the unique values to a file\n")
+    cat("8: Exit (or press 'q'/'Q' to quit)\n")
+    choice_input <- readline(prompt = "Enter your choice: ")
+    if (toupper(choice_input) == "Q") {
+      cat("Exiting the program.\n")
+      break
+    }
+    if (choice_input %in% c("1", "2", "3", "4", "5", "6", "7", "8")) {
+      choice <- as.integer(choice_input)
+    } else {
+      cat("Invalid input. Please enter a number between 1 and 8, or 'q'/'Q' to quit.\n")
+      next
+    }
+    switch(as.character(choice),
+      `1` = cell_map <- add_cell_to_map(cell_objects_map, data_frame),
+      `2` = {
+        cell_map <- delete_cell_from_map(cell_objects_map, data_frame)
+        reset_deletion_tracking()
+      },
+      `3` = export_to_csv(data_frame),
+      `4` = data_frame <- update_data(data_frame),
+      `5` = calc_stats_cells_and_output(data_frame),
+      `6` = calculate_unique_values_and_output(data_frame),
+      `7` = print_unique_values(data_frame),
+      `8` = break
+    )
+  }
+}
+
+#######################################################
 # Main program starts here -- R has no "main" function
 #######################################################
 
