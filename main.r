@@ -393,3 +393,28 @@ calc_stats_cells_and_output <- function(cell_data) {
     try(close(file_conn), silent = TRUE)
   })
 }
+
+# This function calculates and outputs the number of unique values for each column in the data frame.
+# It accepts a data frame and returns a .txt file containing the number of unique values
+# for each column.
+calculate_unique_values_and_output <- function(data) {
+  unique_counts <- sapply(data, function(col) length(unique(na.omit(col))))
+
+  # Open a connection to the output file and
+  # catch any errors in opening/creating the
+  # output file
+  tryCatch({
+      output_file <- "uniquevals.txt"
+      file_conn <- file(output_file, "w")
+  }, error(function(e) {
+    cat("Error: ", e$message, "\n")
+  }))
+  # Write unique values to the file with fixed-width formatting
+  cat(sprintf("%-20s %-20s\n", "Column Name", "Unique Values"), file = file_conn)
+  for (i in seq_along(unique_counts)) {
+    cat(sprintf("%-20s %-20s\n", names(unique_counts)[i], unique_counts[i]), file = file_conn, append = TRUE)
+  }
+  # Close the file connection
+  close(file_conn)
+}
+
