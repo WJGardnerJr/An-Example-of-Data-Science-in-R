@@ -412,21 +412,23 @@ calc_stats_cells_and_output <- function(cell_data) {
 
     # After all stats are written, check for phones announced and released in different years
     if ("launch_announced" %in% names(cell_data) && "launch_status" %in% names(cell_data)) {
-      cell_data$launch_announced <- as.Date(cell_data$launch_announced)
-      cell_data$launch_status <- as.Date(cell_data$launch_status)
-      
-      different_years_indices <- which(format(cell_data$launch_announced, "%Y") != format(cell_data$released_date, "%Y"))
+    # Find the indices where launch year is different from the status year
+      different_years_indices <- which(as.character(cell_data$launch_announced) != as.character(cell_data$launch_status))
       if (length(different_years_indices) > 0) {
-        different_years_data <- cell_data[different_years_indices, c("oem", "model", "launch_announced", "launch_status")]
-        writeLines("\nPhones announced and released in different years:", file_conn)
-        writeLines(capture.output(print(different_years_data)), file_conn)
+          writeLines("\nDifferences found in announced/release years:", file_conn)
+          for (i in different_years_indices) {
+              oem <- cell_data$oem[i]
+              model <- cell_data$model[i]
+              launch_announced <- cell_data$launch_announced[i]
+              launch_status <- cell_data$launch_status[i]
+              writeLines(sprintf("oem: %s\nmodel: %s\nlaunch_announced: %s\nlaunch_status: %s\n", oem, model, launch_announced, launch_status), file_conn)
+          }
       } else {
-        writeLines("\nNo phones were announced and released in different years.", file_conn)
+          writeLines("\nNo differences found between launch announced and launch status years.", file_conn)
       }
-    }
-
-    # Closes the file connection inside tryCatch to ensure it always gets closed
-    close(file_conn)
+    }   
+  # Closes the file connection inside tryCatch to ensure it always gets closed
+  close(file_conn)
   }, error = function(e) {
     cat("An error occurred: ", e$message, "\n")
     # Close the file connection in case it's still open when an error occurs
