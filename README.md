@@ -33,3 +33,6 @@ The company that has the highest weight of the phone body is Motorola, as seen i
 
 The following phones were found to have been announced in one year and released in another:
 ![image](https://github.com/WJGardnerJr/COP4020-Alternative-Language-Project-in-R/assets/135628958/03c978b7-c379-4744-8d70-728980af3ecf)
+
+The following is the count of the number of phones with only one feature or sensor:
+![image](https://github.com/WJGardnerJr/COP4020-Alternative-Language-Project-in-R/assets/135628958/169a65c2-47b4-44ba-94ad-35ed35a65c9d)
