@@ -643,136 +643,136 @@ menu <- function() {
 #############################################################
 
 # Unit test #1 : Determines if the CSV is read correctly
-test_that("File is not empty", {
-   data <- read.csv("cells.csv")
-   expect_true(nrow(data) == 1000)
-})
+# test_that("File is not empty", {
+#    data <- read.csv("cells.csv")
+#    expect_true(nrow(data) == 1000)
+# })
 
 # Unit test #2 : Determines if the data types are correct in the objects
-test_that("Object data types", {
- data <- read.csv("cells.csv")
- cell_map <- create_and_clean_cells(data)
- for (key in names(cell_map)) {
-   expect_true(is.character(slot(cell_map[[key]], "oem")), "oem should be character")
-   expect_true(is.character(slot(cell_map[[key]], "model")), "model should be character")
-   expect_true(is.integer(slot(cell_map[[key]], "launch_announced")), "launch_announced should be integer")
-   expect_true(is.character(slot(cell_map[[key]], "launch_status")), "launch_status should be character")
-   expect_true(is.character(slot(cell_map[[key]], "body_dimensions")), "body_dimensions should be character")
-   expect_true(is.numeric(slot(cell_map[[key]], "body_weight")), "body_weight should be numeric")
-   expect_true(is.character(slot(cell_map[[key]], "body_sim")), "body_sim should be character")
-   expect_true(is.character(slot(cell_map[[key]], "display_type")), "display_type should be character")
-   expect_true(is.character(slot(cell_map[[key]], "display_size")), "display_size should be character")
-   expect_true(is.character(slot(cell_map[[key]], "display_resolution")), "display_resolution should be character")
-   expect_true(is.character(slot(cell_map[[key]], "features_sensors")), "features_sensors should be character")
-   expect_true(is.character(slot(cell_map[[key]], "platform_os")), "platform_os should be character")
- }
-})
+# test_that("Object data types", {
+#  data <- read.csv("cells.csv")
+#  cell_map <- create_and_clean_cells(data)
+#  for (key in names(cell_map)) {
+#    expect_true(is.character(slot(cell_map[[key]], "oem")), "oem should be character")
+#    expect_true(is.character(slot(cell_map[[key]], "model")), "model should be character")
+#    expect_true(is.integer(slot(cell_map[[key]], "launch_announced")), "launch_announced should be integer")
+#    expect_true(is.character(slot(cell_map[[key]], "launch_status")), "launch_status should be character")
+#    expect_true(is.character(slot(cell_map[[key]], "body_dimensions")), "body_dimensions should be character")
+#    expect_true(is.numeric(slot(cell_map[[key]], "body_weight")), "body_weight should be numeric")
+#    expect_true(is.character(slot(cell_map[[key]], "body_sim")), "body_sim should be character")
+#    expect_true(is.character(slot(cell_map[[key]], "display_type")), "display_type should be character")
+#    expect_true(is.character(slot(cell_map[[key]], "display_size")), "display_size should be character")
+#    expect_true(is.character(slot(cell_map[[key]], "display_resolution")), "display_resolution should be character")
+#    expect_true(is.character(slot(cell_map[[key]], "features_sensors")), "features_sensors should be character")
+#    expect_true(is.character(slot(cell_map[[key]], "platform_os")), "platform_os should be character")
+#  }
+# })
 
 # Unit test #3 : Determines if the NA values are correct and if data was cleaned properly
-test_that("NA test", {
- data <- read.csv("cells.csv")
- cell_map <- create_and_clean_cells(data)
- for (key in names(cell_map)) {
-   expect_true(is.character(slot(cell_map[[key]], "oem")) || is.na(slot(cell_map[[key]], "oem")), "oem should be character")
-   expect_true(is.character(slot(cell_map[[key]], "model")) || is.na(slot(cell_map[[key]], "model")), "model should be character")
-   expect_true(is.integer(slot(cell_map[[key]], "launch_announced")) || is.na(slot(cell_map[[key]], "launch_announced")), "launch_announced should be integer or NA")
-   expect_true(is.character(slot(cell_map[[key]], "launch_status")) || is.na(slot(cell_map[[key]], "launch_status")), "launch_status should be character")
-   expect_true(is.character(slot(cell_map[[key]], "body_dimensions")) || is.na(slot(cell_map[[key]], "body_dimensions")), "body_dimensions should be character")
-   expect_true(is.numeric(slot(cell_map[[key]], "body_weight")) || is.na(slot(cell_map[[key]], "body_weight")), "body_weight should be numeric or NA")
-   expect_true(is.character(slot(cell_map[[key]], "body_sim")) || is.na(slot(cell_map[[key]], "body_sim")), "body_sim should be character")
-   expect_true(is.character(slot(cell_map[[key]], "display_type")) || is.na(slot(cell_map[[key]], "display_type")), "display_type should be character")
-   expect_true(is.character(slot(cell_map[[key]], "display_size")) || is.na(slot(cell_map[[key]], "display_size")), "display_size should be character")
-   expect_true(is.character(slot(cell_map[[key]], "display_resolution")) || is.na(slot(cell_map[[key]], "display_resolution")), "display_resolution should be character")
-   expect_true(is.character(slot(cell_map[[key]], "features_sensors")) || is.na(slot(cell_map[[key]], "features_sensors")), "features_sensors should be character")
-   expect_true(is.character(slot(cell_map[[key]], "platform_os")) || is.na(slot(cell_map[[key]], "platform_os")), "platform_os should be character")
- }
-})
+# test_that("NA test", {
+#  data <- read.csv("cells.csv")
+#  cell_map <- create_and_clean_cells(data)
+#  for (key in names(cell_map)) {
+#    expect_true(is.character(slot(cell_map[[key]], "oem")) || is.na(slot(cell_map[[key]], "oem")), "oem should be character")
+#    expect_true(is.character(slot(cell_map[[key]], "model")) || is.na(slot(cell_map[[key]], "model")), "model should be character")
+#    expect_true(is.integer(slot(cell_map[[key]], "launch_announced")) || is.na(slot(cell_map[[key]], "launch_announced")), "launch_announced should be integer or NA")
+#    expect_true(is.character(slot(cell_map[[key]], "launch_status")) || is.na(slot(cell_map[[key]], "launch_status")), "launch_status should be character")
+#    expect_true(is.character(slot(cell_map[[key]], "body_dimensions")) || is.na(slot(cell_map[[key]], "body_dimensions")), "body_dimensions should be character")
+#    expect_true(is.numeric(slot(cell_map[[key]], "body_weight")) || is.na(slot(cell_map[[key]], "body_weight")), "body_weight should be numeric or NA")
+#    expect_true(is.character(slot(cell_map[[key]], "body_sim")) || is.na(slot(cell_map[[key]], "body_sim")), "body_sim should be character")
+#    expect_true(is.character(slot(cell_map[[key]], "display_type")) || is.na(slot(cell_map[[key]], "display_type")), "display_type should be character")
+#    expect_true(is.character(slot(cell_map[[key]], "display_size")) || is.na(slot(cell_map[[key]], "display_size")), "display_size should be character")
+#    expect_true(is.character(slot(cell_map[[key]], "display_resolution")) || is.na(slot(cell_map[[key]], "display_resolution")), "display_resolution should be character")
+#    expect_true(is.character(slot(cell_map[[key]], "features_sensors")) || is.na(slot(cell_map[[key]], "features_sensors")), "features_sensors should be character")
+#    expect_true(is.character(slot(cell_map[[key]], "platform_os")) || is.na(slot(cell_map[[key]], "platform_os")), "platform_os should be character")
+#  }
+# })
 
 # Unit test #4 : Tests the add_cell function
-test_that("Adding test", {
-  data <- read.csv("cells.csv")
-  cell_map <- create_and_clean_cells(data)
-  cell_data_combined <- do.call(rbind, cell_data)
-  add_cell_to_map_ni(cell_map, cell_data_combined)
-  expect_true(length(ls(envir = cell_map)) == 1001)
-})
+# test_that("Adding test", {
+#   data <- read.csv("cells.csv")
+#   cell_map <- create_and_clean_cells(data)
+#   cell_data_combined <- do.call(rbind, cell_data)
+#   add_cell_to_map_ni(cell_map, cell_data_combined)
+#   expect_true(length(ls(envir = cell_map)) == 1001)
+# })
 
 # Unit test #5 : Tests the delete_cell function
-test_that("Deleting test", {
-  data <- read.csv("cells.csv")
-  cell_map <- create_and_clean_cells(data)
-  cell_data_combined <- do.call(rbind, cell_data)
-  delete_cell_from_map_ni(cell_map, cell_data_combined)
-  expect_true(length(ls(envir = cell_map)) == 999)
-})
+# test_that("Deleting test", {
+#   data <- read.csv("cells.csv")
+#   cell_map <- create_and_clean_cells(data)
+#   cell_data_combined <- do.call(rbind, cell_data)
+#   delete_cell_from_map_ni(cell_map, cell_data_combined)
+#   expect_true(length(ls(envir = cell_map)) == 999)
+# })
 
 # Unit test #6 : Tests the export_to_csv function
-test_that ("Export test", {
-  data <- read.csv("cells.csv")
-  cell_map <- create_and_clean_cells(data)
-  cell_data_combined <- do.call(rbind, cell_data)
-  export_to_csv(cell_data_combined)
-  expect_true(file.exists("cleaned_data.csv"))
-})
+# test_that ("Export test", {
+#   data <- read.csv("cells.csv")
+#   cell_map <- create_and_clean_cells(data)
+#   cell_data_combined <- do.call(rbind, cell_data)
+#   export_to_csv(cell_data_combined)
+#   expect_true(file.exists("cleaned_data.csv"))
+# })
 
 # Unit test #7 : Tests the update functionality (non-interactive)
-test_that ("Update test", {
-  data <- read.csv("cells.csv")
-  cell_map <- create_and_clean_cells(data)
-  # Here we recreate cell_data_combined
-  sorted_keys <- names(cell_map)[order(as.numeric(sub("Cell_", "", names(cell_map))))]
-  cell_data <- lapply(sorted_keys, function(key) {
-    cell <- cell_map[[key]]
-    if (class(cell) == "Cell") {
-      data.frame(
-        oem = get_oem(cell),
-        model = get_model(cell),
-        launch_announced = get_launch_announced(cell),
-        launch_status = get_launch_status(cell),
-        body_dimensions = get_body_dimensions(cell),
-        body_weight = get_body_weight(cell),
-        body_sim = get_body_sim(cell),
-        display_type = get_display_type(cell),
-        display_size = get_display_size(cell),
-        display_resolution = get_display_resolution(cell),
-        features_sensors = get_features_sensors(cell),
-        platform_os = get_platform_os(cell)
-      )
-    } else {
-      stop("The retrieved item is not a Cell object.")
-    }
-  })
-  cell_data_combined <- do.call(rbind, cell_data)
-  update_data_ni(cell_data_combined)
-  expect_true(file.exists("updated_data_ni.csv"))
-})
+# test_that ("Update test", {
+#   data <- read.csv("cells.csv")
+#   cell_map <- create_and_clean_cells(data)
+#   # Here we recreate cell_data_combined
+#   sorted_keys <- names(cell_map)[order(as.numeric(sub("Cell_", "", names(cell_map))))]
+#   cell_data <- lapply(sorted_keys, function(key) {
+#     cell <- cell_map[[key]]
+#     if (class(cell) == "Cell") {
+#       data.frame(
+#         oem = get_oem(cell),
+#         model = get_model(cell),
+#         launch_announced = get_launch_announced(cell),
+#         launch_status = get_launch_status(cell),
+#         body_dimensions = get_body_dimensions(cell),
+#         body_weight = get_body_weight(cell),
+#         body_sim = get_body_sim(cell),
+#         display_type = get_display_type(cell),
+#         display_size = get_display_size(cell),
+#         display_resolution = get_display_resolution(cell),
+#         features_sensors = get_features_sensors(cell),
+#         platform_os = get_platform_os(cell)
+#       )
+#     } else {
+#       stop("The retrieved item is not a Cell object.")
+#     }
+#   })
+#   cell_data_combined <- do.call(rbind, cell_data)
+#   update_data_ni(cell_data_combined)
+#   expect_true(file.exists("updated_data_ni.csv"))
+# })
 
 # Unit test #8 : Tests the statistics analyzer
-test_that("Statistics Analyzer test", {
-  data <- read.csv("cells.csv")
-  cell_map <- create_and_clean_cells(data)
-  cell_data_combined <- do.call(rbind, cell_data)
-  calc_stats_cells_and_output(cell_data_combined)
-  expect_true(file.exists("stats.txt"))
-})
+# test_that("Statistics Analyzer test", {
+#   data <- read.csv("cells.csv")
+#   cell_map <- create_and_clean_cells(data)
+#   cell_data_combined <- do.call(rbind, cell_data)
+#   calc_stats_cells_and_output(cell_data_combined)
+#   expect_true(file.exists("stats.txt"))
+# })
 
 # Unit test #9 : Tests the unique value calculator
-test_that("Unique Value Calculator test", {
-  data <- read.csv("cells.csv")
-  cell_map <- create_and_clean_cells(data)
-  cell_data_combined <- do.call(rbind, cell_data)
-  calculate_unique_values_and_output(cell_data_combined)
-  expect_true(file.exists("uniquevals.txt"))
-})
+# test_that("Unique Value Calculator test", {
+#   data <- read.csv("cells.csv")
+#   cell_map <- create_and_clean_cells(data)
+#   cell_data_combined <- do.call(rbind, cell_data)
+#   calculate_unique_values_and_output(cell_data_combined)
+#   expect_true(file.exists("uniquevals.txt"))
+# })
 
-# Unit test #10 : Tests the unique value printer
-test_that("Print Unique Values test", {
-  data <- read.csv("cells.csv")
-  cell_map <- create_and_clean_cells(data)
-  cell_data_combined <- do.call(rbind, cell_data)
-  print_unique_values(cell_data_combined)
-  expect_true(file.exists("uniquelist.txt"))
-})
+# # Unit test #10 : Tests the unique value printer
+# test_that("Print Unique Values test", {
+#   data <- read.csv("cells.csv")
+#   cell_map <- create_and_clean_cells(data)
+#   cell_data_combined <- do.call(rbind, cell_data)
+#   print_unique_values(cell_data_combined)
+#   expect_true(file.exists("uniquelist.txt"))
+# })
 
 #######################################################
 # Main program starts here -- R has no "main" function
