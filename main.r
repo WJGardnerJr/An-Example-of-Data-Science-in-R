@@ -435,6 +435,20 @@ calc_stats_cells_and_output <- function(cell_data) {
       writeLines(sprintf("\nCount of phones with only one feature/sensor: %d", single_feature_sensor_count), file_conn)
       writeLines(sprintf("Count of phones with more than one feature/sensor: %d", multiple_feature_sensor_count), file_conn)
     }
+    if ("launch_status" %in% names(cell_data)) {
+    # Ensure launch_status is treated as a numeric year for comparison
+    launch_years <- as.numeric(as.character(cell_data$launch_status))
+    # Filter years after 1999 and count the occurrences
+    post_1999_counts <- table(launch_years[launch_years > 1999])
+    if (length(post_1999_counts) > 0) {
+        year_most_launches <- as.integer(names(which.max(post_1999_counts)))
+        num_launches <- max(post_1999_counts)
+        
+        writeLines(sprintf("\nYear with the most phones launched after 1999: %d --> (Number of phones launched: %d)", year_most_launches, num_launches), file_conn)
+    } else {
+        writeLines("\nNo phones were launched after 1999 in the dataset.", file_conn)
+    }
+}
   # Closes the file connection inside tryCatch to ensure it always gets closed
   close(file_conn)
   }, error = function(e) {
