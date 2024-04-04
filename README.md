@@ -6,7 +6,7 @@
 
 ---
 
-### __To run this code non-interactively, with hard-coded inputs:__
+### __To run this code non-interactively, with hard-coded inputs, and to use the unit-tests:__
 - Simply run it as-is, that's all!
 
 ---
