@@ -409,6 +409,19 @@ calc_stats_cells_and_output <- function(cell_data) {
         writeLines(sprintf("Most Common OEM: %s", most_common_oem), file_conn)
       }
     }
+
+    # After all stats are written, check for phones announced and released in different years
+    if ("announced_date" %in% names(cell_data) && "released_date" %in% names(cell_data)) {
+      announced_and_released_diff <- cell_data$announced_date != cell_data$released_date
+      if (any(announced_and_released_diff)) {
+        writeLines("\nPhones announced and released in different years:", file_conn)
+        different_years_data <- cell_data[announced_and_released_diff, c("oem", "model", "announced_date", "released_date")]
+        writeLines(capture.output(print(different_years_data)), file_conn)
+      } else {
+        writeLines("\nNo phones were announced and released in different years.", file_conn)
+      }
+    }
+
     # Closes the file connection inside tryCatch to ensure it always gets closed
     close(file_conn)
   }, error = function(e) {

@@ -1,0 +1,2461 @@
+
+oem:
+Benefon
+Garmin-Asus
+Gigabyte
+Google
+Haier
+Honor
+HP
+HTC
+Huawei
+i-mate
+i-mobile
+Icemobile
+Infinix
+Innostream
+Kyocera
+Lava
+Lenovo
+LG
+Maxon
+Meizu
+Micromax
+Mitac
+Mitsubishi
+Motorola
+NEC
+Neonode
+Nokia
+O2
+OnePlus
+Oppo
+Orange
+Palm
+Panasonic
+Pantech
+Philips
+Plum
+Qtek
+Realme
+Sagem
+Samsung
+Sendo
+Sewon
+Sharp
+Siemens
+Sony
+Sony Ericsson
+Spice
+T-Mobile
+TCL
+TECNO
+Tel.Me.
+Telit
+Ulefone
+Unnecto
+Vertu
+vivo
+VK Mobile
+Vodafone
+Wiko
+Xiaomi
+Yezz
+ZTE
+
+model:
+Vega
+nuvifone M10
+GSmart G1305 Boston
+GSmart
+Pixel 4 XL
+Pixel 4
+Pixel 3a XL
+Pixel 3a
+N60
+T3000
+V280
+V190
+V100
+P5
+Z8000
+8S 2020
+Play4
+Play4 Pro
+X10 5G
+V6
+9A
+9C
+9S
+9X Lite
+30 Pro+
+30 Pro
+30
+20e
+Play 4T Pro
+Play 4T
+8A 2020
+8A Prime
+30S
+Play 9A
+View30 Pro
+View30
+V30 Pro
+MagicWatch 2
+9X
+20 lite (China)
+Play 3e
+Play 3
+20S
+9X Pro
+9X (China)
+8S
+Pad 5 10.1
+Pad 5 8
+20 Pro
+20
+20 lite
+Slate8 Pro
+U20 5G
+Desire 20 Pro
+Wildfire R70
+Desire 19s
+Exodus 1s
+Wildfire X
+U19e
+Desire 19+
+Schubert
+Enjoy 20 Pro
+Enjoy Z 5G
+P Smart S
+Y8p
+P40 lite 5G
+P30 Pro New Edition
+MatePad T8
+Y8s
+Y6p
+Y5p
+P smart 2020
+nova 7 Pro 5G
+nova 7 5G
+nova 7 SE
+MatePad
+Watch GT 2e
+P40 Pro+
+P40 Pro
+P40
+P40 lite E
+P40 lite
+MatePad Pro 5G
+Mate Xs
+P30 lite New Edition
+Y7p
+nova 7i
+Y6s (2019)
+P smart Pro 2019
+nova 6 5G
+nova 6
+nova 6 SE
+MatePad Pro
+Y9s
+nova 5z
+Enjoy 10s
+Enjoy 10
+Mate 30 RS Porsche Design
+Mate 30 Pro 5G
+Mate 30 Pro
+Mate 30 5G
+Mate 30
+Watch GT 2
+nova 5i Pro
+Enjoy 10 Plus
+nova 5T
+MediaPad M6 10.8
+MediaPad M6 Turbo 8.4
+MediaPad M6 8.4
+nova 5 Pro
+nova 5
+nova 5i
+Y9 Prime (2019)
+P20 lite (2019)
+P Smart Z
+Mate 20 X (5G)
+Y5 (2019)
+Ascend Plus
+MediaPad 7 Youth
+G7002
+PDA2
+Smartphone2
+Smartphone
+510
+315
+Gravity 4.0
+Prime 5.5
+Prime 4.5
+Gravity Pro
+Quattro
+Hot 9 Play
+Note 7
+Note 7 Lite
+Hot 9 Pro
+Hot 9
+S5 Pro (16+32)
+S5 Pro (48+40)
+S5 lite
+Smart 4c
+Hot 8 Lite
+Hot 8
+Smart3 Plus
+S4
+Hot 7 Pro
+INNO A20
+INNO 75
+INNO 79
+INNO 78
+INNO 30
+INNO 55
+INNO 70
+INNO 99
+INNO 120
+INNO 110
+INNO 100
+TG 200
+Z71
+Iris Fuel F2
+M10 FHD REL
+Yoga Smart Tab
+K10 Plus
+K10 Note
+A6 Note
+Tab M8 (FHD)
+Tab M8 (HD)
+Tab M7
+Z6
+Z6 Pro 5G
+Z6 Youth
+Z6 Pro
+Yoga Tab 3 10
+Q61
+Stylo 6
+Velvet
+Folder 2
+V60 ThinQ 5G UW
+V60 ThinQ 5G
+Q51
+W10 Alpha
+K61
+K51S
+K41S
+G Pad 5 10.1
+V50S ThinQ 5G
+G8X ThinQ
+Q70
+K30 (2019)
+K20 (2019)
+K40S
+K50S
+W30 Pro
+W30
+W10
+Stylo 5
+G8S ThinQ
+Q8 (2018)
+X power 3
+K8 (2018)
+Watch Urbane LTE
+L20
+KM338
+U890
+P7200
+B2050
+M4410
+M4330
+M4300
+F3000
+F2410
+F2250
+U8290
+U8210
+U8200
+B2150
+B2100
+B2000
+F2400
+F1200
+F7250
+C2100
+G1800
+G1610
+G1700
+F2300
+F2100
+L3100
+C1200
+G1600
+G7200
+U8150
+G7070
+G7050
+G1500
+G5310
+W7020
+W5200
+LG-600
+LG-500
+LG-200
+MX-C90
+MX-C80
+MX-C180
+MX-A30
+MX-C60
+MX-C20
+MX-C110
+MX-E10
+MX-V10
+MX-V30
+MX-7990
+MX-E80
+MX-7750
+MX-C11
+MX-C160
+MX-7940
+MX-7920
+MX-7830
+MX-7600
+MX-6879
+MX-6869
+MX-6815
+MX-6814
+17 Pro
+17
+16T
+M10
+16s Pro
+16Xs
+16s
+A36 Bolt
+A28 Bolt
+Bolt A62
+Bolt A35
+Bolt A27
+GC275
+MIO Leap G50
+MIO Leap K1
+MIO A701
+MIO 8870
+MIO 8860
+M750
+M342i
+M341i/M720
+Trium Eclipse
+Trium Sirius
+Trium Mondo
+One Fusion+
+Moto G Fast
+Moto E (2020)
+Moto G Pro
+Edge+
+Moto G8 Power Lite
+Moto E6s (2020)
+Moto G8
+Moto G Stylus
+Moto G Power
+Moto G8 Power
+One Hyper
+Razr 2019
+Moto G8 Play
+Moto E6 Play
+Moto G8 Plus
+One Macro
+Moto E6 Plus
+One Zoom
+One Action
+Moto E6
+Moto Z4
+One Vision
+XOOM MZ604
+XOOM MZ601
+QUENCH
+XT701
+A910
+E895
+E1060
+C168
+E680i
+V560
+V186
+V176
+C980
+A780
+C975
+V555
+A840
+E398
+MPx
+MPx100
+V872
+V878
+A925
+A920
+V690
+A835
+T725
+T720i
+T720
+V70
+C336
+C332
+C331
+V60i
+Accompli 388
+V60
+Accompli 008
+Timeport 280
+V.box(V100)
+StarTAC 130
+StarTAC 85
+StarTAC Rainbow
+StarTAC 75+
+StarTAC 75
+SlimLite
+cd930
+cd920
+M3188
+M3288
+M3588
+M3688
+M3788
+M3888
+Moto Z4 Force
+Moto Z4 Play
+N401i
+N343i
+N200
+N923
+N920
+e338
+e228
+N410i
+N400i
+N331i
+N830
+N820
+e606
+e232
+DB4100
+G9D+
+N1m
+C5 Endi
+C2 Tennen
+C2 Tava
+150 (2020)
+125
+8.3 5G
+5.3
+1.3
+5310 (2020)
+2.3
+7.2
+6.2
+800 Tough
+2720 Flip
+220 4G
+110 (2019)
+105 (2019)
+3.1 C
+3.1 A
+2.2
+X6 8GB (2010)
+X6 16GB (2010)
+X6 (2009)
+6131 NFC
+8.1 Plus
+Cosmo
+XDA Orion
+X1b
+XM
+X4
+XDA IIs
+XDA IIi
+Xphone II
+XDA II
+Xphone
+XDA
+8 5G UW (Verizon)
+8 5G (T-Mobile)
+7T Pro 5G McLaren
+7T Pro
+7T
+7 Pro 5G
+Reno4 Pro 5G
+Reno4 5G
+Find X2 Neo
+A92s
+Find X2 Lite
+Ace2
+A12e
+Reno3
+Find X2 Pro
+Find X2
+Reno3 Pro
+F15
+Reno3 Pro 5G
+Reno3 Youth
+Reno3 5G
+A91
+A8
+Reno Ace
+Reno A
+A5 (2020)
+A9 (2020)
+Reno2
+Reno2 F
+Reno2 Z
+Reno Z
+A9x
+Reno 5G
+A1k
+A5 (AX5)
+A31 (2015)
+Neva jet 5G
+Gova
+Treo 650
+Eluga I7 (2019)
+Eluga DL1
+VS7
+MX7
+SA7
+X70
+GD87
+GD67
+GD75
+GD35
+GD93
+GD30
+Crux
+Laser P9050
+GF100
+GF200
+GB100
+W5510
+W6350
+W930
+362
+868
+859
+Fisio 625
+Fisio 620
+Fisio 610
+Azalis 268
+Azalis 238
+Diga
+Fizz
+Ram 8
+8600
+8300
+8080
+8060
+1010
+7070
+X3 SuperZoom
+6S
+X50 Pro Player
+Narzo 10
+Narzo 10A
+X50m 5G
+6i
+6 Pro
+X50 Pro 5G
+C3 (3 cameras)
+X50 5G
+5i
+5s
+C2s
+C2 2020
+X2 Pro
+XT 730G
+XT
+5 Pro
+3i
+3 Pro
+my411C Oxbow
+my230x
+my900C
+my500X
+my400V
+my301X
+my200x
+my100X
+MY C2-3
+myZ-5
+MY C3-2
+MY Z-55
+MY X6-2
+MY X2-2
+MY C5-2
+MY X1-2
+MY X-8
+MY X-4
+MY S-7
+MY Z-3
+MY C2-2
+SG 321i
+MY V-55
+MY X5-2
+MY V-75
+MY X-7
+MY V-65
+MY C-1
+MY X-1w
+MY C-2
+MY C-6
+MY C-5w
+MY X-2
+MY X-6
+MY G5
+MY X-3
+MY X-5
+MY 3078
+MW 3026
+MW 3052
+MW 3042
+MW 3040
+MW X1
+WA 3050
+MW 3020
+MC 3000
+MC 939 WAP
+MC 936
+MC 950
+MC 959
+MC 940
+MC 932
+RC 922
+MC 912
+MC 850
+MC 825 FM
+MC 820
+RC 750
+RC 730
+Galaxy Tab A 8.0 (2015)
+E1260B
+Continuum I400
+Focus
+P940
+D550
+P860
+Z700
+D710
+i530
+i505
+i250
+X900
+E410
+P705
+D700
+P500
+Watch Phone
+T400
+Q300
+Q200
+A400
+Q100
+SGH-250
+P600
+SV663
+M570
+S330
+J520
+SRS-3300
+SRD-3000
+SRD-200
+SGD-1050
+SGD-1030
+SGD-1020
+SGD-1010
+SGD-1000
+SGD-106
+SGD-105
+SGD-102
+SGD-101
+SG-2890CD
+SG-2300CD
+SG-2320CD
+SG-2200CD
+SG-P100
+Aquos Zero 2
+Aquos V
+AQUOS  941SH
+940SH
+550SH
+GX17
+GX40
+GX25/GZ200
+TM150
+GX30
+GX22
+GX20
+GX10i
+GX10
+GX1
+CX70
+PenPhone
+ST60
+U15
+ST55
+Xelibri 1
+Xelibri 2
+Xelibri 3
+Xelibri 4
+M55
+SL55
+S55
+SX45
+SL45i
+SL42
+SL45
+A36
+M30
+C28
+Xperia 1 II
+Xperia 10 II
+Xperia L4
+Xperia 5
+CMD Z7
+CMD J70
+CMD J7
+CMD MZ5
+CMD J6
+CMD Z1 plus
+CMD Z1
+CM-DX 2000
+CM-DX 1000
+Windows Phone 7
+Mi-285 Stellar
+Revvlry+
+Revvlry
+10 5G
+10 Pro
+10L
+Plex
+Spark Power 2
+Spark 5 Air
+Spark 5
+Camon 15 Premier
+Camon 15 Air
+Camon 15 Pro
+Camon 15
+Camon 12 Air
+Pop 3 Plus
+Spark 4 Lite
+Camon 12 Pro
+Camon 12
+Pouvoir 3 Air
+Pouvoir 3 Plus
+Pouvoir 3
+Spark 3
+Spark 3 Pro
+Spark Go
+Pop 2 F
+Pop 2 Plus
+Phantom 9
+T918
+T919i
+T919
+T909c
+C1000
+T91
+T90
+NEO
+G83
+G80
+G82
+G40
+GM 882
+GM 810
+Estremo
+GM 710
+Note 8P
+Armor X7 Pro
+Armor 7E
+Armor X7
+Armor 7
+Armor X6
+Armor 6S
+Armor 3W
+Armor 3WT
+Armor X5
+T2
+Armor X3
+Armor 5S
+Armor 6E
+Note 7P
+S11
+Armor X2
+S1
+Armor X
+Armor 2
+T2 Pro
+Quattro Z
+Drone Z
+Drone
+Ascent Ti Damascus Steel
+V19 Neo
+Z5x (2020)
+X50 Pro+
+X50 Pro
+Y70s
+iQOO Z1
+X50 Lite
+Y30
+iQOO Neo3 5G
+Y50
+V19
+S6 5G
+NEX 3S 5G
+V19 (Indonesia)
+Z6 5G
+iQOO 3 5G
+X30 Pro
+X30
+V17
+iQOO Neo 855 Racing
+Z5i
+V17 (Russia)
+S1 Pro
+Y3 Standard
+Y19
+iQOO Neo 855
+Y11 (2019)
+Y3 (4GB+64GB)
+Y3
+NEX 3 5G
+V17 Pro
+NEX 3
+Z1x
+iQOO Pro 5G
+iQOO Pro
+Y90
+V17 Neo
+Z1Pro
+iQOO Neo
+Z5x
+S1 Pro (China)
+Z3x
+Y17
+Y12
+S1 (China)
+Y91i (India)
+Y15S (2015)
+Y15 (2013)
+VK4500
+VK800
+Smart V10
+Smart N10
+247 Solar
+V720
+Y80
+Sunny3
+View3 Pro
+View3
+Sunny2 Plus
+Sunny2
+Sunny Max
+Redmi 9
+Redmi 10X Pro 5G
+Redmi 10X 5G
+Redmi 10X 4G
+Redmi K30i 5G
+Poco F2 Pro
+Redmi K30 5G Racing
+Redmi Note 9 Pro
+Redmi Note 9
+Mi Note 10 Lite
+Mi 10 Youth 5G
+Mi 10 Lite 5G
+Redmi K30 Pro Zoom
+Redmi K30 Pro
+Redmi Note 9S
+Redmi Note 9 Pro Max
+Redmi Note 9 Pro (India)
+Black Shark 3 Pro
+Black Shark 3
+Mi 10 Pro 5G
+Mi 10 5G
+Redmi 8A Pro
+Redmi 8A Dual
+Poco X2
+Redmi K30
+Redmi K30 5G
+Redmi Note 8T
+Mi Note 10 Pro
+Mi Note 10
+Mi CC9 Pro
+Watch Color
+Mi Watch
+Redmi 8
+Redmi 8A
+Mi Mix Alpha
+Mi 9 Pro 5G
+Mi 9 Pro
+Redmi K20 Pro Premium
+Mi 9 Lite
+Redmi Note 8 Pro
+Black Shark 2 Pro
+Mi A3
+Redmi 7A
+Mi CC9e
+Mi CC9
+Redmi Note 8
+Mi 9T Pro
+Mi 9T
+Redmi K20
+Redmi K20 Pro
+Redmi Note 7S
+Redmi Y3
+Redmi 5 Plus (Redmi Note 5)
+Mi Max 4
+Mi Max 4 Pro
+Mi 9X
+Max 1 Plus
+LIV1
+nubia Red Magic 5G Lite
+nubia Play
+Axon 11 4G
+Axon 11 5G
+nubia Red Magic 5G
+Axon 10s Pro 5G
+Blade Max View
+Blade A7 Prime
+Blade 10 Prime
+Blade 20
+nubia Red Magic 3s
+nubia Z20
+nubia X 5G
+Blade A5 (2019)
+Blade A3 (2019)
+Blade L8
+nubia Red Magic 3
+Axon 10 Pro
+Blade V10 Vita
+Blade A7 Vita
+Blade A7
+V889M
+N880E
+Skate Acqua
+Sage
+
+launch_announced:
+1999
+2010
+2019
+2005
+2004
+2003
+2020
+2013
+2014
+2006
+2007
+2012
+2000
+2016
+2018
+2015
+2008
+2002
+2001
+2011
+2009
+1998
+1997
+1996
+2017
+
+launch_status:
+2019
+2020
+2016
+2018
+2015
+2017
+
+body_dimensions:
+145 x 56 x 23 mm (5.71 x 2.20 x 0.91 in)
+116 x 56.8 x 12.4 mm (4.57 x 2.24 x 0.49 in)
+103 x 54 x 13.4 mm (4.06 x 2.13 x 0.53 in)
+160.4 x 75.1 x 8.2 mm (6.31 x 2.96 x 0.32 in)
+147.1 x 68.8 x 8.2 mm (5.79 x 2.71 x 0.32 in)
+160.1 x 76.1 x 8.2 mm (6.30 x 3.00 x 0.32 in)
+151.3 x 70.1 x 8.2 mm (5.96 x 2.76 x 0.32 in)
+94 x 48 x 25 mm (3.70 x 1.89 x 0.98 in)
+85 x 45 x 23.5 mm (3.35 x 1.77 x 0.93 in)
+109 x 44 x 14.5 mm (4.29 x 1.73 x 0.57 in)
+106 x 46 x 18.8 mm (4.17 x 1.81 x 0.74 in)
+135 x 28 x 18 mm (5.31 x 1.10 x 0.71 in)
+83 x 44 x 23.8 mm (3.27 x 1.73 x 0.94 in)
+147.1 x 70.8 x 8.5 mm (5.79 x 2.79 x 0.33 in)
+170 x 78.5 x 8.9 mm (6.69 x 3.09 x 0.35 in)
+162.7 x 75.8 x 8.9 mm (6.41 x 2.98 x 0.35 in)
+163.7 x 76.5 x 8.8 mm (6.44 x 3.01 x 0.35 in)
+245.2 x 154.9 x 7.8 mm (9.65 x 6.10 x 0.31 in)
+159.1 x 74.1 x 9 mm (6.26 x 2.92 x 0.35 in)
+159.8 x 76.1 x 8.1 mm (6.29 x 3.00 x 0.32 in)
+146.5 x 70.9 x 8.4 mm (5.77 x 2.79 x 0.33 in)
+160.4 x 76.6 x 7.8 mm (6.31 x 3.02 x 0.31 in)
+160.3 x 73.6 x 8.4 mm (6.31 x 2.90 x 0.33 in)
+160.3 x 74.2 x 8.1 mm (6.31 x 2.92 x 0.32 in)
+154.8 x 73.6 x 8 mm (6.09 x 2.90 x 0.31 in)
+157.4 x 73.2 x 7.8 mm (6.20 x 2.88 x 0.31 in)
+156.3 x 73.5 x 8.2 mm (6.15 x 2.89 x 0.32 in)
+162.3 x 75 x 8.6 mm (6.39 x 2.95 x 0.34 in)
+162.7 x 75.8 x 8.8 mm (6.41 x 2.98 x 0.35 in)
+45.9 x 45.9 x 10.7 mm (1.81 x 1.81 x 0.42 in)
+163.5 x 77.3 x 8.8 mm (6.44 x 3.04 x 0.35 in)
+157.2 x 73.2 x 7.7 mm (6.19 x 2.88 x 0.30 in)
+154.3 x 74 x 7.9 mm (6.07 x 2.91 x 0.31 in)
+163.1 x 77.2 x 8.8 mm (6.42 x 3.04 x 0.35 in)
+243 x 164 x 7.8 mm (9.57 x 6.46 x 0.31 in)
+204.2 x 122.2 x 8.2 mm (8.04 x 4.81 x 0.32 in)
+154.6 x 74 x 8.4 mm (6.09 x 2.91 x 0.33 in)
+220 x 141.5 x 9.9 mm (8.66 x 5.57 x 0.39 in)
+171.2 x 78.1 x 9.4 mm (6.74 x 3.07 x 0.37 in)
+162 x 77 x 9.4 mm (6.38 x 3.03 x 0.37 in)
+163.2 x 77.8 x 8.9 mm (6.43 x 3.06 x 0.35 in)
+156.2 x 74.8 x 8.5 mm (6.15 x 2.94 x 0.33 in)
+154.2 x 72.7 x 8.3 mm (6.07 x 2.86 x 0.33 in)
+156.7 x 74.9 x 8 mm (6.17 x 2.95 x 0.31 in)
+156.6 x 75.9 x 8 mm (6.17 x 2.99 x 0.31 in)
+160 x 75.3 x 8.4 mm (6.30 x 2.96 x 0.33 in)
+158 x 73.4 x 8.4 mm (6.22 x 2.89 x 0.33 in)
+199.7 x 121.1 x 8.6 mm (7.86 x 4.77 x 0.34 in)
+162.4 x 77.1 x 8.1 mm (6.39 x 3.04 x 0.32 in)
+155.2 x 73.4 x 8 mm (6.11 x 2.89 x 0.31 in)
+160.4 x 73.7 x 8 mm (6.31 x 2.90 x 0.31 in)
+160.6 x 74.3 x 8 mm (6.32 x 2.93 x 0.31 in)
+245.2 x 155 x 7.4 mm (9.65 x 6.10 x 0.29 in)
+53 x 46.8 x 10.8 mm (2.09 x 1.84 x 0.43 in)
+158.2 x 72.6 x 9 mm (6.23 x 2.86 x 0.35 in)
+148.9 x 71.1 x 8.5 mm (5.86 x 2.80 x 0.33 in)
+159.2 x 76.3 x 8.7 mm (6.27 x 3.00 x 0.34 in)
+246 x 159 x 7.2 mm (9.69 x 6.26 x 0.28 in)
+Unfolded: 161.3 x 146.2 x 5.4 mmFolded: 161.3 x 78.5 x 11 mm
+152.9 x 72.7 x 7.4 mm (6.02 x 2.86 x 0.29 in)
+156.3 x 73.5 x 8 mm (6.15 x 2.89 x 0.31 in)
+162.7 x 75.8 x 9 mm (6.41 x 2.98 x 0.35 in)
+162.6 x 75.7 x 8.6 mm (6.40 x 2.98 x 0.34 in)
+156.1 x 73.9 x 8.3 mm (6.15 x 2.91 x 0.33 in)
+158.1 x 73.1 x 9.3 mm (6.22 x 2.88 x 0.37 in)
+158.1 x 73.1 x 8.8 mm (6.22 x 2.88 x 0.35 in)
+160.8 x 76.1 x 8.4 mm (6.33 x 3.00 x 0.33 in)
+154.3 x 74 x 7.8 mm (6.07 x 2.91 x 0.31 in)
+257 x 170 x 7.2 mm (10.12 x 6.69 x 0.28 in)
+206.4 x 125.2 x 8.2 mm (8.13 x 4.93 x 0.32 in)
+206.4 x 125.2 x 7.4 mm (8.13 x 4.93 x 0.29 in)
+157.4 x 74.8 x 7.3 mm (6.20 x 2.94 x 0.29 in)
+159.1 x 75.9 x 8.3 mm (6.26 x 2.99 x 0.33 in)
+163.5 x 77.3 x 8.9 mm (6.44 x 3.04 x 0.35 in)
+174.6 x 85.4 x 8.4 mm (6.87 x 3.36 x 0.33 in)
+125 x 63.5 x 12.7 mm (4.92 x 2.5 x 0.5 in)
+193.4 x 120.6 x 9.9 mm (7.61 x 4.75 x 0.39 in)
+98.4 x 51.3 x 13.6 mm (3.87 x 2.02 x 0.54 in)
+130 x 69 x 19 mm (5.12 x 2.72 x 0.75 in)
+120.4 x 50.1 x 24.4 mm, 105 cc (4.74 x 1.97 x 0.96 in)
+120 x 50 x 23.5 mm, 105 cc (4.72 x 1.97 x 0.93 in)
+99 x 44 x 15 mm (3.90 x 1.73 x 0.59 in)
+98 x 46.3 x 15.1 mm (3.86 x 1.82 x 0.59 in)
+140.4 x 75.8 x 16.3 mm (5.53 x 2.98 x 0.64 in)
+152.5 x 77 x 8.6 mm (6.00 x 3.03 x 0.34 in)
+133.5 x 67 x 9.5 mm (5.26 x 2.64 x 0.37 in)
+139.7 x 76.4 x 17.6 mm (5.5 x 3.01 x 0.69 in)
+104 x 54 x 10.3 mm (4.09 x 2.13 x 0.41 in)
+171.8 x 78 x 8.9 mm (6.76 x 3.07 x 0.35 in)
+173.4 x 79 x 8.8 mm (6.83 x 3.11 x 0.35 in)
+165.4 x 76.8 x 8.8 mm (6.51 x 3.02 x 0.35 in)
+165 x 76.8 x 8.7 mm (6.50 x 3.02 x 0.34 in)
+162.5 x 76.9 x 9 mm (6.40 x 3.03 x 0.35 in)
+164 x 76 x 7.9 mm (6.46 x 2.99 x 0.31 in)
+167 x 76 x 8.3 mm (6.57 x 2.99 x 0.33 in)
+165 x 76.3 x 8.7 mm (6.50 x 3.00 x 0.34 in)
+157 x 76 x 7.8 mm (6.18 x 2.99 x 0.31 in)
+156 x 75 x 7.9 mm (6.14 x 2.95 x 0.31 in)
+155 x 74.8 x 8 mm (6.10 x 2.94 x 0.31 in)
+93.9 x 46.4 x 23 mm (3.70 x 1.83 x 0.91 in)
+82.5 x 44 x 23 mm (3.25 x 1.73 x 0.91 in)
+84 x 43 x 23 mm (3.31 x 1.69 x 0.91 in)
+82 x 42 x 21 mm (3.23 x 1.65 x 0.83 in)
+85 x 42 x 21.6 mm (3.35 x 1.65 x 0.85 in)
+90 x 52 x 22 mm (3.54 x 2.05 x 0.87 in)
+87 x 46 x 24 mm (3.43 x 1.81 x 0.94 in)
+80 x 44 x 23.3 mm (3.15 x 1.73 x 0.92 in)
+80 x 43 x 20 mm (3.15 x 1.69 x 0.79 in)
+120 x 40 x 16 mm (4.72 x 1.57 x 0.63 in)
+145.6 x 70.9 x 9 mm (5.73 x 2.79 x 0.35 in)
+142.5 x 72.5 x 10.5 mm (5.61 x 2.85 x 0.41 in)
+242mm x 166mm x 8.5-24mm
+158.3 x 75.8 x 8.3 mm (6.23 x 2.98 x 0.33 in)
+156.6 x 74.3 x 7.9 mm (6.17 x 2.93 x 0.31 in)
+154.7 x 72.9 x 9.2 mm (6.09 x 2.87 x 0.36 in)
+198.2 x 122.6 x 8.2 mm (7.80 x 4.83 x 0.32 in)
+199.1 x 121.8 x 8.2 mm (7.84 x 4.80 x 0.32 in)
+176.3 x 102.9 x 8.3 mm (6.94 x 4.05 x 0.33 in)
+157 x 74.5 x 8 mm (6.18 x 2.93 x 0.31 in)
+157.5 x 74.6 x 8.7 mm (6.20 x 2.94 x 0.34 in)
+253 x 185 x 9.5 mm (9.96 x 7.28 x 0.37 in)
+164.5 x 77.5 x 8.3 mm (6.48 x 3.05 x 0.33 in)
+171.2 x 77.7 x 8.6 mm (6.74 x 3.06 x 0.34 in)
+167.2 x 74.1 x 7.9 mm (6.58 x 2.92 x 0.31 in)
+107.9 x 55 x 18 mm (4.25 x 2.17 x 0.71 in)
+169.3 x 77.6 x 8.9 mm (6.67 x 3.06 x 0.35 in)
+164.5 x 77.5 x 8.4 mm (6.48 x 3.05 x 0.33 in)
+147.3 x 71 x 8.9 mm (5.80 x 2.80 x 0.35 in)
+165.2 x 76.7 x 8.3 mm (6.50 x 3.02 x 0.33 in)
+165.8 x 76.5 x 8.3 mm (6.53 x 3.01 x 0.33 in)
+247.2 x 150.7 x 8 mm (9.73 x 5.93 x 0.31 in)
+159.3 x 75.8 x 8.4 mm (6.27 x 2.98 x 0.33 in)
+162.1 x 76.8 x 8.3 mm (6.38 x 3.02 x 0.33 in)
+146.9 x 71.5 x 8.5 mm (5.78 x 2.81 x 0.33 in)
+148.6 x 71.9 x 8.3 mm (5.85 x 2.83 x 0.33 in)
+156.3 x 73.9 x 8.6 mm (6.15 x 2.91 x 0.34 in)
+165.8 x 77.5 x 8.2 mm (6.53 x 3.05 x 0.32 in)
+157.7 x 75.9 x 8.3 mm (6.21 x 2.99 x 0.33 in)
+159 x 76.5 x 8.2 mm (6.26 x 3.01 x 0.32 in)
+156 x 76.2 x 8.5 mm (6.14 x 3.00 x 0.33 in)
+160 x 77.7 x 8.4 mm (6.30 x 3.06 x 0.33 in)
+155.3 x 76.6 x 8 mm (6.11 x 3.02 x 0.31 in)
+160.1 x 77.7 x 8.4 mm (6.30 x 3.06 x 0.33 in)
+154.7 x 78.1 x 8.9 mm (6.09 x 3.07 x 0.35 in)
+146.3 x 73.2 x 8.2 mm (5.76 x 2.88 x 0.32 in)
+V1
+105.6 x 64.5 x 13 mm (4.16 x 2.54 x 0.51 in)
+108 x 46 x 12.9 mm (4.25 x 1.81 x 0.51 in)
+98.8 x 49 x 18.2 mm, 80 cc (3.89 x 1.93 x 0.72 in)
+96 x 50 x 17 mm (3.78 x 1.97 x 0.67 in)
+105 x 44 x 15.9 mm (4.13 x 1.73 x 0.63 in)
+88 x 47 x 23.9 mm (3.46 x 1.85 x 0.94 in)
+88 x 45 x 23.9 mm (3.46 x 1.77 x 0.94 in)
+87 x 45 x 23 mm (3.43 x 1.77 x 0.91 in)
+89.5 x 47.5 x 24.5 mm (3.52 x 1.87 x 0.96 in)
+89.8 x 47.7 x 24.8 mm (3.54 x 1.88 x 0.98 in)
+103 x 43 x 16 mm (4.06 x 1.69 x 0.63 in)
+104 x 43 x 15.9 mm (4.09 x 1.69 x 0.63 in)
+86 x 44 x 23 mm (3.39 x 1.73 x 0.91 in)
+95 x 49 x 24 mm (3.74 x 1.93 x 0.94 in)
+98 x 49 x 25 mm (3.86 x 1.93 x 0.98 in)
+88 x 47 x 24 mm (3.46 x 1.85 x 0.94 in)
+99 x 45 x 17 mm (3.90 x 1.77 x 0.67 in)
+104 x 44 x 17 mm (4.09 x 1.73 x 0.67 in)
+101 x 44 x 22 mm (3.98 x 1.73 x 0.87 in)
+88 x 46 x 24 mm (3.46 x 1.81 x 0.94 in)
+90 x 47 x 23 mm (3.54 x 1.85 x 0.91 in)
+105 x 44 x 18 mm (4.13 x 1.73 x 0.71 in)
+82 x 45 x 22 mm (3.23 x 1.77 x 0.87 in)
+93 x 49 x 26.5 mm (3.66 x 1.93 x 1.04 in)
+99 x 50 x 24 mm (3.90 x 1.97 x 0.94 in)
+99 x 46 x 22 mm (3.90 x 1.81 x 0.87 in)
+94 x 44 x 21 mm (3.70 x 1.73 x 0.83 in)
+105 x 44 x 21 mm (4.13 x 1.73 x 0.83 in)
+106 x 42 x 22 mm (4.17 x 1.65 x 0.87 in)
+88 x 45 x 22 mm (3.46 x 1.77 x 0.87 in)
+84 x 45 x 20 mm (3.31 x 1.77 x 0.79 in)
+80 x 44 x 24 mm (3.15 x 1.73 x 0.94 in)
+109 x 46 x 20 mm (4.29 x 1.81 x 0.79 in)
+106 x 45 x 20 mm (4.17 x 1.77 x 0.79 in)
+83 x 47 x 23 mm (3.27 x 1.85 x 0.91 in)
+84 x 43.7 x 20.8 mm (3.31 x 1.72 x 0.82 in)
+90 x 48.5 x 22.4 mm (3.54 x 1.91 x 0.88 in)
+80 x 45 x 22.9 mm (3.15 x 1.77 x 0.90 in)
+91 x 46 x 23 mm (3.58 x 1.81 x 0.91 in)
+86 x 46 x 21 mm (3.39 x 1.81 x 0.83 in)
+91 x 48 x 22.6 mm (3.58 x 1.89 x 0.89 in)
+78 x 37 x 20.5 mm (3.07 x 1.46 x 0.81 in)
+81 x 43 x 21 mm (3.19 x 1.69 x 0.83 in)
+85 x 45 x 21 mm (3.35 x 1.77 x 0.83 in)
+65 x 37 x 22 mm (2.56 x 1.46 x 0.87 in)
+80 x 45 x 24 mm (3.15 x 1.77 x 0.94 in)
+64.9 x 37 x 22.1 mm (2.56 x 1.46 x 0.87 in)
+113 x 47 x 19 mm (4.45 x 1.85 x 0.75 in)
+85 x 46 x 21 mm (3.35 x 1.81 x 0.83 in)
+110 x 43 x 22 mm (4.33 x 1.69 x 0.87 in)
+110 x 43 x 20 mm (4.33 x 1.69 x 0.79 in)
+110 x 46 x 23 mm (4.33 x 1.81 x 0.91 in)
+160 x 77.2 x 8.5 mm (6.30 x 3.04 x 0.33 in)
+159.6 x 78.2 x 8.3 mm (6.28 x 3.08 x 0.33 in)
+164.9 x 76.3 x 8.5 mm (6.49 x 3.00 x 0.33 in)
+151.9 x 73.4 x 7.7 mm (5.98 x 2.89 x 0.30 in)
+152 x 74.4 x 8.3 mm (5.98 x 2.93 x 0.33 in)
+151.9 x 73.4 x 7.6 mm (5.98 x 2.89 x 0.30 in)
+116.9 x 62.5 x 12.5 mm (4.60 x 2.46 x 0.49 in)
+121.7 x 67.2 x 12.2 mm (4.79 x 2.65 x 0.48 in)
+124 x 64 x 11.6 mm (4.88 x 2.52 x 0.46 in)
+116.2 x 62 x 13.2 mm (4.57 x 2.44 x 0.52 in)
+107.7 x 44.4 x 14.5 mm (4.24 x 1.75 x 0.57 in)
+98 x 58.5 x 14.2 mm (3.86 x 2.30 x 0.56 in)
+105.1 x 53.5 x 14.5 mm (4.14 x 2.11 x 0.57 in)
+117 x 59 x 22 mm (4.61 x 2.32 x 0.87 in)
+110 x 49 x 21 mm, 110 cc (4.33 x 1.93 x 0.83 in)
+96 x 47 x 24 mm, 88 cc (3.78 x 1.85 x 0.94 in)
+107 x 47 x 19 mm, 85 cc (4.21 x 1.85 x 0.75 in)
+96 x 47 x 24 mm, 87 cc (3.78 x 1.85 x 0.94 in)
+123 x 48 x 29 mm, 100 cc (4.84 x 1.89 x 1.14 in)
+104 x 53 x 22 mm (4.09 x 2.09 x 0.87 in)
+139.5 x 84 x 19 mm (5.49 x 3.31 x 0.75 in)
+162.9 x 76.4 x 9.6 mm (6.41 x 3.01 x 0.38 in)
+161.9 x 75.7 x 9.1 mm (6.37 x 2.98 x 0.36 in)
+159.8 x 76.6 x 8.7 mm (6.29 x 3.02 x 0.34 in)
+158.6 x 75.8 x 9.2 mm (6.24 x 2.98 x 0.36 in)
+161.1 x 71.4 x 9.6 mm (6.34 x 2.81 x 0.38 in)
+164.9 x 75.8 x 9.2 mm (6.49 x 2.98 x 0.36 in)
+155.6 x 73 x 8.5 mm (6.13 x 2.87 x 0.33 in)
+161.3 x 75.8 x 9 mm (6.35 x 2.98 x 0.35 in)
+159.9 x 75.8 x 9.6 mm (6.30 x 2.98 x 0.38 in)
+156 x 75.8 x 9.6 mm (6.14 x 2.98 x 0.38 in)
+161.8 x 76.6 x 8.9 mm (6.37 x 3.02 x 0.35 in)
+Unfolded: 172 x 72 x 6.9 mmFolded: 94 x 72 x 14mm
+157.6 x 75.4 x 9 mm (6.20 x 2.97 x 0.35 in)
+146.5 x 70.9 x 8.3 mm (5.77 x 2.79 x 0.33 in)
+158.4 x 75.8 x 9.1 mm (6.24 x 2.98 x 0.36 in)
+155.6 x 73.1 x 8.6 mm (6.13 x 2.88 x 0.34 in)
+158 x 75 x 8.8 mm (6.22 x 2.95 x 0.35 in)
+160.1 x 71.2 x 9.2 mm (6.30 x 2.80 x 0.36 in)
+149.7 x 72.3 x 8.6 mm (5.89 x 2.85 x 0.34 in)
+158 x 75 x 7.4 mm (6.22 x 2.95 x 0.29 in)
+160.1 x 71.2 x 8.7 mm (6.30 x 2.80 x 0.34 in)
+249.1 x 167.8 x 12.9 mm (9.81 x 6.61 x 0.51 in)
+116.8 x 60 x 12.4 mm (4.60 x 2.36 x 0.49 in)
+116 x 60.9 x 10.9 mm (4.57 x 2.40 x 0.43 in)
+93 x 51 x 23 mm, 88 cc (3.66 x 2.01 x 0.91 in)
+107 x 53 x 21 mm (4.21 x 2.09 x 0.83 in)
+104.4 x 46 x 14 mm, 63 cc (4.11 x 1.81 x 0.55 in)
+109 x 53.8 x 20.5 mm, 105 cc (4.29 x 2.12 x 0.81 in)
+86.5 x 44.5 x 25 mm (3.41 x 1.75 x 0.98 in)
+114 x 53 x 24.5 mm (4.49 x 2.09 x 0.96 in)
+106 x 53 x 24 mm, 106 cc (4.17 x 2.09 x 0.94 in)
+114 x 53 x 24 mm, 112 cc (4.49 x 2.09 x 0.94 in)
+89 x 49 x 25 mm (3.50 x 1.93 x 0.98 in)
+94 x 49 x 24 mm (3.70 x 1.93 x 0.94 in)
+108 x 46 x 21 mm (4.25 x 1.81 x 0.83 in)
+99.7 x 61.2 x 24 mm, 140 cc (3.93 x 2.41 x 0.94 in)
+114 x 50 x 22 mm, 106 cc (4.49 x 1.97 x 0.87 in)
+87 x 46 x 21.8 mm, 85 cc (3.43 x 1.81 x 0.86 in)
+82 x 42 x 21.5 mm (3.23 x 1.65 x 0.85 in)
+148 x 60 x 24 mm, 175 cc (5.83 x 2.36 x 0.94 in)
+90 x 47 x 23 mm, 80 cc (3.54 x 1.85 x 0.91 in)
+135 x 58.2 x 24.2 mm, 134 cc (5.31 x 2.29 x 0.95 in)
+90 x 47 x 21 mm (3.54 x 1.85 x 0.83 in)
+94 x 38 x 18 mm (3.70 x 1.50 x 0.71 in)
+102 x 46 x 19 mm, 73 cc (4.02 x 1.81 x 0.75 in)
+107 x 46 x 22 mm (4.21 x 1.81 x 0.87 in)
+101 x 48 x 21 mm (3.98 x 1.89 x 0.83 in)
+87 x 45 x 24 mm, 73 cc (3.43 x 1.77 x 0.94 in)
+98 x 58 x 24 mm (3.86 x 2.28 x 0.94 in)
+98 x 60 x 28 mm (3.86 x 2.36 x 1.10 in)
+125 x 49 x 24 mm, 98 cc (4.92 x 1.93 x 0.94 in)
+83 x 44 x 25 mm (3.27 x 1.73 x 0.98 in)
+94 x 55 x 19 mm (3.70 x 2.17 x 0.75 in)
+98 x 57 x 23 mm (3.86 x 2.24 x 0.91 in)
+143 x 57 x 16 mm (5.63 x 2.24 x 0.63 in)
+129 x 55 x 27 mm (5.08 x 2.17 x 1.06 in)
+140 x 50 x 25 mm, 150 cc (5.51 x 1.97 x 0.98 in)
+90 x 44 x 23 mm, 85 cc (3.54 x 1.73 x 0.91 in)
+109 x 43 x 12.7 mm (4.29 x 1.69 x 0.5 in)
+70 x 51 x 18.6 mm (2.76 x 2.01 x 0.73 in)
+85 x 54 x 9.5 mm (3.35 x 2.13 x 0.37 in)
+85 x 54 x 9.6 mm (3.35 x 2.13 x 0.38 in)
+93.8 x 47.1 x 23.3 mm, 89 cc (3.69 x 1.85 x 0.92 in)
+129 x 54 x 21 mm (5.08 x 2.13 x 0.83 in)
+101 x 49 x 24 mm, 103 cc (3.98 x 1.93 x 0.94 in)
+101 x 49 x 24 mm, 100 cc (3.98 x 1.93 x 0.94 in)
+101 x 48 x 24 mm, 90 cc (3.98 x 1.89 x 0.94 in)
+101 x 49 x 24 mm (3.98 x 1.93 x 0.94 in)
+109 x 53 x 32 mm, 140 cc (4.29 x 2.09 x 1.26 in)
+90 x 43 x 23 mm, 97 cc (3.54 x 1.69 x 0.91 in)
+120 x 42 x 22 mm, 89 cc (4.72 x 1.65 x 0.87 in)
+145 x 49 x 22.5 mm (5.71 x 1.93 x 0.89 in)
+88 x 52 x 21 mm (3.46 x 2.05 x 0.83 in)
+171.7 x 76.7 x 8.9 mm (6.76 x 3.02 x 0.35 in)
+150.6 x 72.4 x 9.1 mm (5.93 x 2.85 x 0.36 in)
+132 x 50.5 x 15 mm (5.20 x 1.99 x 0.59 in)
+171.9 x 78.6 x 9 mm (6.77 x 3.09 x 0.35 in)
+164.3 x 76.6 x 8.5 mm (6.47 x 3.02 x 0.33 in)
+147.3 x 71.2 x 9.4 mm (5.80 x 2.80 x 0.37 in)
+123.7 x 52.4 x 13.1 mm, 44.8 cc (4.87 x 2.06 x 0.52 in)
+157.7 x 75.4 x 8.7 mm (6.21 x 2.97 x 0.34 in)
+159.9 x 75.2 x 8.3 mm (6.30 x 2.96 x 0.33 in)
+159.9 x 75.1 x 8.3 mm (6.30 x 2.96 x 0.33 in)
+145.4 x 62.1 x 16.1 mm (5.72 x 2.44 x 0.63 in)
+192.7 x 54.5 x 11.6 mm (7.59 x 2.15 x 0.46 in)
+121.3 x 52.9 x 13.4 mm (4.78 x 2.08 x 0.53 in)
+115.2 x 49.9 x 14.3 mm (4.54 x 1.96 x 0.56 in)
+119 x 49.2 x 14.4 mm (4.69 x 1.94 x 0.57 in)
+152.7 x 71.9 x 9.4 mm (6.01 x 2.83 x 0.37 in)
+146 x 70.6 x 9.3 mm (5.75 x 2.78 x 0.37 in)
+111 x 51 x 13.8 mm (4.37 x 2.01 x 0.54 in)
+92 x 47 x 20 mm (3.62 x 1.85 x 0.79 in)
+111 x 62 x 13 mm (4.37 x 2.44 x 0.51 in)
+107.5 x 46 x 17.5 mm (4.23 x 1.81 x 0.69 in)
+102 x 44 x 18 mm (4.02 x 1.73 x 0.71 in)
+89 x 47 x 23.5 mm (3.50 x 1.85 x 0.93 in)
+89.9 x 45.1 x 24 mm (3.54 x 1.78 x 0.94 in)
+125 x 71 x 19 mm (4.92 x 2.80 x 0.75 in)
+130 x 70 x 19 mm (5.12 x 2.76 x 0.75 in)
+107 x 44 x 18 mm (4.21 x 1.73 x 0.71 in)
+120 x 50 x 24 mm (4.72 x 1.97 x 0.94 in)
+129 x 73 x 18 mm (5.08 x 2.87 x 0.71 in)
+160.2 x 72.9 x 8 mm (6.31 x 2.87 x 0.31 in)
+162.6 x 75.9 x 8.8 mm (6.40 x 2.99 x 0.35 in)
+160.9 x 74.4 x 8.1 mm (6.33 x 2.93 x 0.32 in)
+159.6 x 72.5 x 7.6 mm (6.28 x 2.85 x 0.30 in)
+159.3 x 74 x 7.8 mm (6.27 x 2.91 x 0.31 in)
+159.4 x 72.4 x 7.7 mm (6.28 x 2.85 x 0.30 in)
+163.8 x 75.5 x 8.1 mm (6.45 x 2.97 x 0.32 in)
+160.3 x 74.3 x 8 mm (6.31 x 2.93 x 0.31 in)
+160 x 75.4 x 8.6 mm (6.30 x 2.97 x 0.34 in)
+156.2 x 75.6 x 8.2 mm (6.15 x 2.98 x 0.32 in)
+160.2 x 73.3 x 7.9 mm (6.31 x 2.89 x 0.31 in)
+165.2 x 74.4 x 8.8 mm (Ceramic) / 9.5mm (Leather)
+164.9 x 74.5 x 8 mm (6.49 x 2.93 x 0.31 in)
+158.8 x 73.4 x 8.1 mm (6.25 x 2.89 x 0.32 in)
+163.9 x 75.5 x 8.3 mm (6.45 x 2.97 x 0.33 in)
+161 x 75.7 x 8.7 mm (6.34 x 2.98 x 0.34 in)
+158.4 x 75.4 x 7.8 mm (6.24 x 2.97 x 0.31 in)
+163.6 x 75.4 x 9.1 mm (6.44 x 2.97 x 0.36 in)
+163.6 x 75.6 x 9.1 mm (6.44 x 2.98 x 0.36 in)
+160 x 74.3 x 9.5 mm (6.30 x 2.93 x 0.37 in)
+162.4 x 75.8 x 8.7 mm (6.39 x 2.98 x 0.34 in)
+157.3 x 74.9 x 9.1 mm (6.19 x 2.95 x 0.36 in)
+162 x 76.1 x 8.3 mm (6.38 x 3.00 x 0.33 in)
+162 x 77.2 x 9.3 mm (6.38 x 3.04 x 0.37 in)
+154.5 x 73.8 x 8.4 mm (6.08 x 2.91 x 0.33 in)
+131.9 x 65.5 x 8 mm (5.19 x 2.58 x 0.31 in)
+159.2 x 73.4 x 7.9 mm (6.27 x 2.89 x 0.31 in)
+7.9 mm thickness
+113 x 59 x 23 mm (4.45 x 2.32 x 0.91 in)
+148.8 x 70.9 x 9.3 mm (5.86 x 2.79 x 0.37 in)
+123 x 62 x 7.8 mm (4.84 x 2.44 x 0.31 in)
+102 x 51 x 18.8 mm, 89 cc (4.02 x 2.01 x 0.74 in)
+102 x 51 x 26 mm, 118 cc (4.02 x 2.01 x 1.02 in)
+102 x 53 x 26 mm, 116 cc (4.02 x 2.09 x 1.02 in)
+87 x 47 x 24 mm, 80 cc (3.43 x 1.85 x 0.94 in)
+97 x 49 x 23 mm (3.82 x 1.93 x 0.91 in)
+109 x 45 x 20 mm, 81 cc (4.29 x 1.77 x 0.79 in)
+106 x 46 x 16 mm, 75 cc (4.17 x 1.81 x 0.63 in)
+120 x 46 x 20 mm (4.72 x 1.81 x 0.79 in)
+120 x 45 x 16.4 mm (4.72 x 1.77 x 0.65 in)
+135 x 45 x 20 mm (5.31 x 1.77 x 0.79 in)
+109 x 58 x 13 mm (4.29 x 2.28 x 0.51 in)
+113.8 x 57.9 x 10 mm (4.48 x 2.28 x 0.39 in)
+82 x 44 x 22.5 mm (3.23 x 1.73 x 0.89 in)
+81 x 42 x 22 mm (3.19 x 1.65 x 0.87 in)
+80 x 42 x 21 mm (3.15 x 1.65 x 0.83 in)
+116.2 x 63 x 13 mm (4.57 x 2.48 x 0.51 in)
+125.2 x 63.9 x 11.5 mm (4.93 x 2.52 x 0.45 in)
+110 x 57.8 x 22 mm (4.33 x 2.28 x 0.87 in)
+100 x 45 x 18 mm, 75 cc (3.94 x 1.77 x 0.71 in)
+92 x 45 x 26 mm (3.62 x 1.77 x 1.02 in)
+88 x 46 x 23 mm, 77 cc (3.46 x 1.81 x 0.91 in)
+104 x 46 x 20 mm, 73 cc (4.09 x 1.81 x 0.79 in)
+110 x 45 x 18 mm (4.33 x 1.77 x 0.71 in)
+119 x 44 x 22 mm (4.69 x 1.73 x 0.87 in)
+114 x 51 x 24 mm, 119 cc (4.49 x 2.01 x 0.94 in)
+147 x 56 x 19 mm (5.79 x 2.20 x 0.75 in)
+162 x 60 x 17 mm (6.38 x 2.36 x 0.67 in)
+111.5 x 57.5 x 22 mm (4.39 x 2.26 x 0.87 in)
+112.4 x 46 x 14.8 mm (4.43 x 1.81 x 0.58 in)
+163.8 x 75.8 x 8.9 mm (6.45 x 2.98 x 0.35 in)
+162.1 x 74.8 x 8.9 mm (6.38 x 2.94 x 0.35 in)
+159 x 74.2 x 8.9 mm (6.26 x 2.92 x 0.35 in)
+164.4 x 75.4 x 9 mm (6.47 x 2.97 x 0.35 in)
+164.4 x 75 x 9 mm (6.47 x 2.95 x 0.35 in)
+164.4 x 75 x 9.3 mm (6.47 x 2.95 x 0.37 in)
+164.4 x 75.6 x 9.3 mm (6.47 x 2.98 x 0.37 in)
+154.3 x 73.7 x 8.5 mm (6.07 x 2.90 x 0.33 in)
+158.7 x 75.2 x 8.6 mm (6.25 x 2.96 x 0.34 in)
+157 x 74.2 x 8.9 mm (6.18 x 2.92 x 0.35 in)
+156.1 x 75.6 x 8.3 mm (6.15 x 2.98 x 0.33 in)
+156.8 x 74.2 x 8.3 mm (6.17 x 2.92 x 0.33 in)
+91 x 46 x 16.5 mm (3.58 x 1.81 x 0.65 in)
+106 x 46 x 10 mm (4.17 x 1.81 x 0.39 in)
+90 x 45 x 23.5 mm (3.54 x 1.77 x 0.93 in)
+100 x 46 x 16.5 mm (3.94 x 1.81 x 0.65 in)
+105 x 46 x 14 mm (4.13 x 1.81 x 0.55 in)
+104 x 43 x 15.5 mm (4.09 x 1.69 x 0.61 in)
+104 x 42 x 15.5 mm (4.09 x 1.65 x 0.61 in)
+73 x 42 x 21 mm, 70 cc (2.87 x 1.65 x 0.83 in)
+85 x 42 x 23 mm (3.35 x 1.65 x 0.91 in)
+77 x 41 x 22 mm, 70 cc (3.03 x 1.61 x 0.87 in)
+81 x 41 x 24 mm (3.19 x 1.61 x 0.94 in)
+110 x 47 x 19 mm (4.33 x 1.85 x 0.75 in)
+105.6 x 46 x 20 mm (4.16 x 1.81 x 0.79 in)
+82 x 43 x 23 mm (3.23 x 1.69 x 0.91 in)
+106 x 47 x 21 mm (4.17 x 1.85 x 0.83 in)
+115 x 47 x 20.8 mm (4.53 x 1.85 x 0.82 in)
+104 x 46 x 18 mm (4.09 x 1.81 x 0.71 in)
+100 x 45 x 24 mm (3.94 x 1.77 x 0.94 in)
+85 x 44 x 21 mm (3.35 x 1.73 x 0.83 in)
+106 x 46 x 19 mm (4.17 x 1.81 x 0.75 in)
+110 x 46 x 22 mm (4.33 x 1.81 x 0.87 in)
+110 x 46 x 22 mm, 111 cc (4.33 x 1.81 x 0.87 in)
+86 x 44 x 20 mm (3.39 x 1.73 x 0.79 in)
+82 x 42 x 23 mm (3.23 x 1.65 x 0.91 in)
+84 x 46 x 22 mm (3.31 x 1.81 x 0.87 in)
+88 x 44 x 20 mm (3.46 x 1.73 x 0.79 in)
+99 x 45 x 21 mm (3.90 x 1.77 x 0.83 in)
+105 x 46 x 20 mm, 77 cc (4.13 x 1.81 x 0.79 in)
+106 x 46 x 20 mm, 79 cc (4.17 x 1.81 x 0.79 in)
+23 x 45 x 75 mm (0.91 x 1.77 x 2.95 in)
+105 x 50 x 23 mm (4.13 x 1.97 x 0.91 in)
+105 x 45 x 18 mm, 79 cc (4.13 x 1.77 x 0.71 in)
+140 x 57 x 20 mm (5.51 x 2.24 x 0.79 in)
+130 x 80 x 17 mm (5.12 x 3.15 x 0.67 in)
+116 x 45 x 18 mm (4.57 x 1.77 x 0.71 in)
+116 x 45 x 22 mm (4.57 x 1.77 x 0.87 in)
+132 x 50 x 21 mm (5.20 x 1.97 x 0.83 in)
+132 x 50 x 26 mm (5.20 x 1.97 x 1.02 in)
+130 x 50 x 26 mm (5.12 x 1.97 x 1.02 in)
+140 x 50 x 21 mm (5.51 x 1.97 x 0.83 in)
+208.3 x 137.9 x 7.4 mm (8.20 x 5.43 x 0.29 in)
+103 x 59 x 12 mm (4.06 x 2.32 x 0.47 in)
+125 x 58 x 12 mm (4.92 x 2.28 x 0.47 in)
+124.7 x 64.3 x 9.9 mm (4.91 x 2.53 x 0.39 in)
+95 x 48 x 23 mm (3.74 x 1.89 x 0.91 in)
+96 x 48.5 x 26.5 mm (3.78 x 1.91 x 1.04 in)
+101 x 51 x 24 mm (3.98 x 2.01 x 0.94 in)
+90 x 55 x 27.5 mm (3.54 x 2.17 x 1.08 in)
+91 x 54 x 23 mm (3.58 x 2.13 x 0.91 in)
+94 x 50 x 26 mm (3.70 x 1.97 x 1.02 in)
+89.7 x 46.4 x 24 mm (3.53 x 1.83 x 0.94 in)
+73 x 53 x 23 mm (2.87 x 2.09 x 0.91 in)
+92 x 51 x 26.4 mm (3.62 x 2.01 x 1.04 in)
+89 x 49 x 23 mm (3.50 x 1.93 x 0.91 in)
+90 x 46 x 23 mm (3.54 x 1.81 x 0.91 in)
+38 x 64 x 17 mm (1.50 x 2.52 x 0.67 in)
+85 x 48 x 23 mm (3.35 x 1.89 x 0.91 in)
+85 x 48 x 20 mm (3.35 x 1.89 x 0.79 in)
+70 x 48 x 20 mm (2.76 x 1.89 x 0.79 in)
+112 x 42 x 18.5 mm (4.41 x 1.65 x 0.73 in)
+124 x 48 x 25 mm (4.88 x 1.89 x 0.98 in)
+108 x 45 x 20 mm, 76 cc (4.25 x 1.77 x 0.79 in)
+108 x 45 x 19.5 mm, 76 cc (4.25 x 1.77 x 0.77 in)
+82 x 45 x 20 mm, 68 cc (3.23 x 1.77 x 0.79 in)
+108 x 47 x 21 mm, 79 cc (4.25 x 1.85 x 0.83 in)
+113 x 50 x 25 mm, 79 cc (4.45 x 1.97 x 0.98 in)
+72 x 39 x 26.5 mm (2.83 x 1.54 x 1.04 in)
+91 x 48 x 18 mm (3.58 x 1.89 x 0.71 in)
+87.5 x 47.5 x 21.7 mm (3.44 x 1.87 x 0.85 in)
+82 x 44 x 21 mm (3.23 x 1.73 x 0.83 in)
+82 x 44 x 22 mm (3.23 x 1.73 x 0.87 in)
+82 x 42.4 x 21 mm (3.23 x 1.67 x 0.83 in)
+72 x 40 x 23 mm (2.83 x 1.57 x 0.91 in)
+68 x 39 x 22 mm (2.68 x 1.54 x 0.87 in)
+88 x 44 x 21 mm (3.46 x 1.73 x 0.83 in)
+158 x 74 x 8.8 mm (6.22 x 2.91 x 0.35 in)
+157 x 76 x 9 mm (6.18 x 2.99 x 0.35 in)
+119 x 53 x 16.6 mm (4.69 x 2.09 x 0.65 in)
+111 x 51 x 16 mm (4.37 x 2.01 x 0.63 in)
+111 x 47 x 18.5 mm (4.37 x 1.85 x 0.73 in)
+106 x 45.5 x 17.4 mm (4.17 x 1.79 x 0.69 in)
+93 x 46 x 22 mm (3.66 x 1.81 x 0.87 in)
+92 x 46 x 23.5 mm (3.62 x 1.81 x 0.93 in)
+93 x 43 x 25 mm (3.66 x 1.69 x 0.98 in)
+95 x 49 x 26 mm (3.74 x 1.93 x 1.02 in)
+94 x 49 x 25 mm (3.70 x 1.93 x 0.98 in)
+95 x 49 x 25 mm (3.74 x 1.93 x 0.98 in)
+94 x 49 x 27 mm (3.70 x 1.93 x 1.06 in)
+133 x 46 x 23 mm (5.24 x 1.81 x 0.91 in)
+108 x 46 x 18 mm (4.25 x 1.81 x 0.71 in)
+140 x 25 x 19 mm (5.51 x 0.98 x 0.75 in)
+99 x 49 x 22 mm, 76 cc (3.90 x 1.93 x 0.87 in)
+136 x 53 x 24 mm, 140 cc (5.35 x 2.09 x 0.94 in)
+99 x 47 x 22 mm (3.90 x 1.85 x 0.87 in)
+101 x 46 x 19 mm, 72 cc (3.98 x 1.81 x 0.75 in)
+99 x 56 x 20 mm, 78 cc (3.90 x 2.20 x 0.79 in)
+74 x 43 x 20 mm, 48 cc (2.91 x 1.69 x 0.79 in)
+99 x 53 x 19 mm, 70 cc (3.90 x 2.09 x 0.75 in)
+101 x 46 x 21 mm (3.98 x 1.81 x 0.83 in)
+82 x 45 x 22 mm, 63 cc (3.23 x 1.77 x 0.87 in)
+101 x 42 x 18 mm, 69 cc (3.98 x 1.65 x 0.71 in)
+134 x 87 x 26 mm, 309 cc (5.28 x 3.43 x 1.02 in)
+105 x 46 x 17 mm, 69 cc (4.13 x 1.81 x 0.67 in)
+118 x 46 x 21 mm (4.65 x 1.81 x 0.83 in)
+124 x 44 x 24 mm, 99 cc (4.88 x 1.73 x 0.94 in)
+117 x 47 x 27 mm, 120 cc (4.61 x 1.85 x 1.06 in)
+165.1 x 71.1 x 7.6 mm (6.5 x 2.80 x 0.30 in)
+157 x 69 x 8.2 mm (6.18 x 2.72 x 0.32 in)
+159 x 71 x 8.7 mm (6.26 x 2.80 x 0.34 in)
+158 x 68 x 8.2 mm (6.22 x 2.68 x 0.32 in)
+91 x 50 x 25 mm, 90 cc (3.58 x 1.97 x 0.98 in)
+113 x 44 x 21 mm (4.45 x 1.73 x 0.83 in)
+90 x 49 x 30 mm, 100 cc (3.54 x 1.93 x 1.18 in)
+123 x 43 x 20 mm (4.84 x 1.69 x 0.79 in)
+98 x 60 x 26 mm, 120 cc (3.86 x 2.36 x 1.02 in)
+99 x 64 x 24 mm, 120 cc (3.90 x 2.52 x 0.94 in)
+147 x 46 x 27 mm, 155 cc (5.79 x 1.81 x 1.06 in)
+150 x 45 x 32 mm (5.91 x 1.77 x 1.26 in)
+91 x 50 x 24 mm, 90 cc (3.58 x 1.97 x 0.94 in)
+116.5 x 58.4 x 12.7 mm (4.59 x 2.30 x 0.5 in)
+158.5 x 75.2 x 8.6 mm (6.24 x 2.96 x 0.34 in)
+148.6 x 71.4 x 8.1 mm (5.85 x 2.81 x 0.32 in)
+163.7 x 76.6 x 9 mm (6.44 x 3.02 x 0.35 in)
+158.5 x 72.4 x 9.2 mm (6.24 x 2.85 x 0.36 in)
+162.2 x 75.6 x 8.4 mm (6.39 x 2.98 x 0.33 in)
+162.2 x 76.6 x 8 mm (6.39 x 3.02 x 0.31 in)
+174.9 x 79.6 x 9.2 mm (6.89 x 3.13 x 0.36 in)
+174.6 x 79.3 x 9.1 mm (6.87 x 3.12 x 0.36 in)
+164.7 x 76.3 x 8.8 mm (6.48 x 3.00 x 0.35 in)
+163.3 x 77.7 x 9.1 mm (6.43 x 3.06 x 0.36 in)
+164.5 x 76.5 x 9 mm (6.48 x 3.01 x 0.35 in)
+164.1 x 76.4 x 8.8 mm (6.46 x 3.01 x 0.35 in)
+164.2 x 76.1 x 8.2 mm (6.46 x 3.00 x 0.32 in)
+166.7 x 75.8 x 8.4 mm (6.56 x 2.98 x 0.33 in)
+158.6 x 75.5 x 7.8 mm (6.24 x 2.97 x 0.31 in)
+166 x 75.8 x 8.2 mm (6.54 x 2.98 x 0.32 in)
+163 x 78.2 x 9.3 mm (6.42 x 3.08 x 0.37 in)
+159 x 76 x 9.2 mm (6.26 x 2.99 x 0.36 in)
+157.6 x 76.7 x 8.5 mm (6.20 x 3.02 x 0.33 in)
+155.3 x 75.8 x 8.2 mm (6.11 x 2.98 x 0.32 in)
+154.3 x 75.5 x 7.9 mm (6.07 x 2.97 x 0.31 in)
+156.1 x 75 x 9.2 mm (6.15 x 2.95 x 0.36 in)
+149.8 x 72.8 x 9.4 mm (5.90 x 2.87 x 0.37 in)
+161.7 x 78.9 x 9.6 mm (6.37 x 3.11 x 0.38 in)
+158.5 x 75.3 x 7.9 mm (6.24 x 2.96 x 0.31 in)
+111 x 50 x 20.5 mm (4.37 x 1.97 x 0.81 in)
+126 x 56 x 24 mm (4.96 x 2.20 x 0.94 in)
+129 x 44 x 18 mm (5.08 x 1.73 x 0.71 in)
+86 x 48 x 15.6 mm (3.39 x 1.89 x 0.61 in)
+85 x 43.5 x 21.9 mm (3.35 x 1.71 x 0.86 in)
+99 x 44 x 18 mm (3.90 x 1.73 x 0.71 in)
+108 x 45 x 20 mm (4.25 x 1.77 x 0.79 in)
+105 x 60 x 23 mm (4.13 x 2.36 x 0.91 in)
+114 x 53 x 27 mm (4.49 x 2.09 x 1.06 in)
+105 x 46 x 18.5 mm (4.13 x 1.81 x 0.73 in)
+107 x 54 x 22 mm (4.21 x 2.13 x 0.87 in)
+117 x 51 x 18 mm (4.61 x 2.01 x 0.71 in)
+134 x 53 x 24 mm (5.28 x 2.09 x 0.94 in)
+141.7 x 66.5 x 12 mm (5.58 x 2.62 x 0.47 in)
+150 x 78.9 x 14.6 mm (5.91 x 3.11 x 0.57 in)
+165.9 x 81 x 13.6 mm (6.53 x 3.19 x 0.54 in)
+150 x 78.9 x 14.4 mm (5.91 x 3.11 x 0.57 in)
+166 x 83 x 13.3 mm (6.54 x 3.27 x 0.52 in)
+164.8 x 79.2 x 18.2 mm (6.49 x 3.12 x 0.72 in)
+167.6 x 80.3 x 8.7 mm (6.60 x 3.16 x 0.34 in)
+158 x 77.5 x 13.9 mm (6.22 x 3.05 x 0.55 in)
+158.3 x 76 x 12.6 mm (6.23 x 2.99 x 0.50 in)
+156.1 x 73.7 x 9.7 mm (6.15 x 2.90 x 0.38 in)
+163 x 76.6 x 13.9 mm (6.42 x 3.02 x 0.55 in)
+148.6 x 70.7 x 9.6 mm (5.85 x 2.78 x 0.38 in)
+159 x 78.3 x 14.5 mm (6.26 x 3.08 x 0.57 in)
+165.9 x 78.3 x 7.7 mm (6.53 x 3.08 x 0.30 in)
+125.5 x 65 x 9.4 mm (4.94 x 2.56 x 0.37 in)
+116 x 61 x 11.5 mm (4.57 x 2.40 x 0.45 in)
+102.6 x 56.4 x 12.4 mm (4.04 x 2.22 x 0.49 in)
+115.5 x 49 x 13.1 mm, 74 cc (4.55 x 1.93 x 0.52 in)
+159 x 74.2 x 8.5 mm (6.26 x 2.92 x 0.33 in)
+162.4 x 77.3 x 8.9 mm (6.39 x 3.04 x 0.35 in)
+158.5 x 72.8 x 8 mm (6.24 x 2.87 x 0.31 in)
+162 x 76.6 x 8.5 mm (6.38 x 3.02 x 0.33 in)
+164 x 75.6 x 8.9 mm (6.46 x 2.98 x 0.35 in)
+159.3 x 75.2 x 8.7 mm (6.27 x 2.96 x 0.34 in)
+162 x 76.5 x 9.1 mm (6.38 x 3.01 x 0.36 in)
+163.7 x 75.6 x 8.9 mm (6.44 x 2.98 x 0.35 in)
+159.6 x 75 x 8.5 mm (6.28 x 2.95 x 0.33 in)
+161.2 x 74.7 x 8.7 mm (6.35 x 2.94 x 0.34 in)
+167.4 x 76.1 x 9.4 mm (6.59 x 3.00 x 0.37 in)
+164 x 75.1 x 9.2 mm (6.46 x 2.96 x 0.36 in)
+158.5 x 74.9 x 9.2 mm (6.24 x 2.95 x 0.36 in)
+158.5 x 74.1 x 8.8 mm (6.24 x 2.92 x 0.35 in)
+159.5 x 75.2 x 8.1 mm (6.28 x 2.96 x 0.32 in)
+162.2 x 76.5 x 8.9 mm (6.39 x 3.01 x 0.35 in)
+159.4 x 76.7 x 8.9 mm (6.28 x 3.02 x 0.35 in)
+159.4 x 76.8 x 8.9 mm (6.28 x 3.02 x 0.35 in)
+159 x 74.7 x 9.8 mm (6.26 x 2.94 x 0.39 in)
+158.8 x 75.7 x 9.3 mm (6.25 x 2.98 x 0.37 in)
+155.1 x 75.1 x 8.3 mm (6.11 x 2.96 x 0.33 in)
+157.3 x 74.7 x 8.2 mm (6.19 x 2.94 x 0.32 in)
+154.8 x 75 x 7.9 mm (6.09 x 2.95 x 0.31 in)
+162 x 76 x 8.5 mm (6.38 x 2.99 x 0.33 in)
+131.4 x 66.2 x 9 mm (5.17 x 2.61 x 0.35 in)
+98 x 49 x 16.9 mm (3.86 x 1.93 x 0.67 in)
+79 x 44 x 23.7 mm (3.11 x 1.73 x 0.93 in)
+151.3 x 69.9 x 8.2 mm (5.96 x 2.75 x 0.32 in)
+148.8 x 69.9 x 8.4 mm (5.86 x 2.75 x 0.33 in)
+97 x 46 x 16.8 mm (3.82 x 1.81 x 0.66 in)
+160 x 76.5 x 8.6 mm (6.30 x 3.01 x 0.34 in)
+146.7 x 74 x 10 mm (5.78 x 2.91 x 0.39 in)
+159.5 x 75 x 8.1 mm (6.28 x 2.95 x 0.32 in)
+146.3 x 73.7 x 9.8 mm (5.76 x 2.90 x 0.39 in)
+126.6 x 66.3 x 11.4 mm (4.98 x 2.61 x 0.45 in)
+128.3 x 66.3 x 13.2 mm (5.05 x 2.61 x 0.52 in)
+163.3 x 77 x 9.1 mm (6.43 x 3.03 x 0.36 in)
+164.2 x 75.8 x 9 mm (6.46 x 2.98 x 0.35 in)
+162.3 x 77.2 x 8.9 mm (6.39 x 3.04 x 0.35 in)
+165.3 x 76.6 x 8.8 mm (6.51 x 3.02 x 0.35 in)
+163.3 x 75.4 x 8.9 mm (6.43 x 2.97 x 0.35 in)
+165.8 x 76.7 x 8.8 mm (6.53 x 3.02 x 0.35 in)
+157.8 x 74.2 x 9.7 mm (6.21 x 2.92 x 0.38 in)
+164 x 74.8 x 7.9 mm (6.46 x 2.94 x 0.31 in)
+163.7 x 74.8 x 7.9 mm (6.44 x 2.94 x 0.31 in)
+165.5 x 76.7 x 8.8 mm (6.52 x 3.02 x 0.35 in)
+177.8 x 83.3 x 10.1 mm (7.00 x 3.28 x 0.40 in)
+168.7 x 77.3 x 10.4 mm (6.64 x 3.04 x 0.41 in)
+162.5 x 74.8 x 9 mm (6.40 x 2.94 x 0.35 in)
+156.5 x 75.4 x 9.4 mm (6.16 x 2.97 x 0.37 in)
+161.1 x 75.4 x 8.6 mm (6.34 x 2.97 x 0.34 in)
+53.3 x 46.2 x 11.4 mm (2.10 x 1.82 x 0.45 in)
+44.7 x 36.9 x 12.3 mm (1.76 x 1.45 x 0.48 in)
+154.4 x 72.3 x 10.4 mm (6.08 x 2.85 x 0.41 in)
+157.2 x 74.6 x 8.5 mm (6.19 x 2.94 x 0.33 in)
+156.7 x 74.3 x 8.8 mm (6.17 x 2.93 x 0.35 in)
+156.8 x 74.5 x 8.7 mm (6.17 x 2.93 x 0.34 in)
+161.4 x 76.4 x 8.8 mm (6.35 x 3.01 x 0.35 in)
+163.6 x 75 x 8.8 mm (6.44 x 2.95 x 0.35 in)
+153.5 x 71.9 x 8.5 mm (6.04 x 2.83 x 0.33 in)
+146.3 x 70.4 x 9.6 mm (5.76 x 2.77 x 0.38 in)
+158.3 x 75.3 x 8.4 mm (6.23 x 2.96 x 0.33 in)
+159.2 x 75.2 x 8.1 mm (6.27 x 2.96 x 0.32 in)
+158.7 x 75.6 x 8.5 mm (6.25 x 2.98 x 0.33 in)
+158.5 x 75.5 x 8.1 mm (6.24 x 2.97 x 0.32 in)
+148.7 x 70.9 x 8.9 mm (5.85 x 2.79 x 0.35 in)
+138.5 x 65.8 x 9.5 mm (5.45 x 2.59 x 0.37 in)
+171.7 x 78.5 x 9.1 mm (6.76 x 3.09 x 0.36 in)
+168.6 x 78 x 9.8 mm (6.64 x 3.07 x 0.39 in)
+163.1 x 74.9 x 8.1 mm (6.42 x 2.95 x 0.32 in)
+156.7 x 72.9 x 8.1 mm (6.17 x 2.87 x 0.32 in)
+158 x 75.2 x 7.9 mm (6.22 x 2.96 x 0.31 in)
+162.9 x 76.6 x 9 mm (6.41 x 3.02 x 0.35 in)
+171.7 x 78.5 x 9.7 mm (6.76 x 3.09 x 0.38 in)
+158.6 x 75.3 x 9 mm (6.24 x 2.96 x 0.35 in)
+145.8 x 70 x 9.6 mm (5.74 x 2.76 x 0.38 in)
+137.4 x 67.5 x 10.5 mm (5.41 x 2.66 x 0.41 in)
+157.1 x 75.8 x 8.1 mm (6.19 x 2.98 x 0.32 in)
+147 x 69.5 x 7.9 mm (5.79 x 2.74 x 0.31 in)
+154 x 72.8 x 7.9 mm (6.06 x 2.87 x 0.31 in)
+120.5 x 63.6 x 11.9 mm (4.74 x 2.50 x 0.47 in)
+119 x 61 x 10.4 mm (4.69 x 2.40 x 0.41 in)
+93 x 49 x 13.5 mm (3.66 x 1.93 x 0.53 in)
+
+body_weight:
+190
+118
+193
+162
+167
+147
+131
+85
+80
+90
+75
+146
+213
+203
+480
+185
+176
+144
+188
+186
+164
+165
+150
+206
+41
+196.8
+171.5
+172
+202
+182
+174
+453.6
+215.5
+201
+170
+160
+180
+192
+163
+189
+310
+178
+450
+43
+226
+209
+175
+183
+460
+300
+152.9
+212
+197
+198
+196
+163.5
+498
+340
+320
+171
+233
+136.1
+350
+95
+130
+316
+240
+195
+179
+148
+154
+105
+76
+88
+91
+81
+520
+580
+305
+236
+159
+655
+219
+127
+218
+191
+194.5
+191.7
+152
+194
+181
+45
+99
+112
+72
+107
+110
+125
+115
+73
+101
+78
+83
+87
+116
+136
+89
+82
+67
+59
+135
+96
+199
+184
+166
+100
+119
+120
+102
+200
+210
+189.4
+188.3
+205
+183.6
+140
+149.7
+730
+77
+133
+92
+139
+141
+108
+93
+157
+84
+103
+109
+155
+70
+114
+145
+94
+90.5
+91.3
+220
+88.2
+161
+86.5
+156
+153
+122
+104
+106
+86
+168
+217
+169.5
+215
+113
+138.8
+250
+169
+134
+65
+97
+117
+121
+137
+158
+313
+119.4
+173
+98
+55
+71
+79
+330
+181.4
+151
+235
+177
+180.5
+170.7
+164.4
+74.5
+234
+290
+223.8
+270
+365
+373.7
+197.2
+228
+267.5
+178.8
+177.5
+256
+204.1
+181.5
+190.2
+198.1
+186.5
+219.5
+214.5
+198.5
+196.5
+186.7
+191.5
+190.5
+218.5
+201.8
+217.3
+189.6
+189.5
+149
+208
+204
+253
+222
+44
+241
+173.8
+104.9
+133.3
+
+body_sim:
+Mini-SIM
+Nano-SIM card & eSIM
+Nano-SIM, eSIM
+Nano-SIM
+Single SIM (Nano-SIM) or Dual SIM (Nano-SIM, dual stand-by)
+Dual SIM (Nano-SIM, dual stand-by)
+Hybrid Dual SIM (Nano-SIM, dual stand-by)
+Single SIM (Nano-SIM) or Hybrid Dual SIM (Nano-SIM, dual stand-by)
+Single SIM (Nano-SIM/eSIM) or Hybrid Dual SIM (Nano-SIM, dual stand-by)
+MIni-SIM
+Micro-SIM
+Dual SIM
+Dual SIM (Mini-SIM)
+Dual SIM (Micro-SIM, dual stand-by)
+Pre-installed Nano-SIM
+eSIM
+Dual SIM (Nano-SIM/Micro-SIM, dual stand-by)
+Dual SIM (Mini-SIM, dual stand-by)
+Single SIM (Mini-SIM) or Dual SIM (Mini-SIM, dual stand-by)
+Single SIM (Nano-SIM) or Dual SIM (Mini-SIM, dual stand-by)
+Dual SIM (Nano-SIM/ Micro-SIM, dual stand-by)
+Dual SIM (Micro-SIM/Nano-SIM, dual stand-by)
+Hybrid Dual SIM (Micro-SIM/Nano-SIM, dual stand-by)
+Dual SIM (dual stand-by)
+Dual SIM (Micro-SIM/Mini-SIM, dual stand-by)
+
+display_type:
+Monochrome graphic
+TFT resistive touchscreen, 65K colors
+TFT capacitive touchscreen, 256K colors
+P-OLED capacitive touchscreen, 16M colors
+OLED capacitive touchscreen, 16M colors
+TFT resistive touchscreen, 256K colors
+65K colors
+Monochrome
+4096 colors
+IPS LCD capacitive touchscreen, 16M colors
+LTPS IPS LCD capacitive touchscreen, 16M colors
+Capacitive touchscreen, 16M colors
+AMOLED capacitive touchscreen, 16M colors
+TFT capacitive touchscreen, 16M colors
+Foldable OLED capacitive touchscreen, 16M colors
+TFT capacitive touchscreen
+TFT, 65K colors
+TFT, 256K colors
+IPS LCD capacitive touchscreen
+TFT
+LCD, 65K colors
+LCD capacitive touchscreen, 16M colors
+Super AMOLED capacitive touchscreen, 16M colors
+G-OLED capacitive touchscreen, 16M colors
+S-IPS LCD capacitive touchscreen, 16M colors
+Capacitive touchscreen
+CSN, 65K colors
+CSTN, 65K colors
+STN, 256K colors
+STN, 65K colors
+STN, 4096 colors
+UFB, 65K colors
+Grayscale graphic
+Grayscale graphic, 4 shades
+TFT capacitive touchscreen, 65K colors
+TFT touchscreen
+TFT, 256K colors (65K effective)
+CSTN, 256 colors
+Monochrome resistive touchscreen, 16 shades
+OLED capacitive touchscreen, 1B colors
+Foldable P-OLED capacitive touchscreen, 16M colors
+CSTN, 4096 colors
+V1
+TFT resistive touchscreen, 65k colors
+TFT, 65k colors
+Monochrome graphics, resistive touchscreen
+Monochrome graphic, Optimax
+Alphanumeric
+TFT touchscreen, 65K colors
+TFT, 16M colors
+TFT resistive touchscreen, 4096 colors
+Fluid AMOLED capacitive touchscreen, 16M colors
+AMOLED capacitive touchscreen, 1B colors
+STN, 256 colors
+AMOLED resistive touchscreen, 256K colors
+Dual TFT capacitive touchscreen, 256K colors
+Graphics
+TFT resistive resistive touchscreen, 4096 colors
+Monochrome graphics
+Greyscale resistive touchscreen
+TFD, 16M colors
+UFS, 65K colors
+TFT resistive  touchscreen, 65K colors
+TFD, 65K colors
+OLED, 256 colors
+TFT resistive touchscreen, 16M colors
+CGS, 256K colors
+CGS, 65K colors
+GFC, 65K Colors
+LCD
+CSTN touchscreen, 65K colors
+CSTN resistive touchscreen, 32K colors
+TFT resistive touchscreen
+Flexible Super AMOLED capacitive touchscreen, 16M colors
+
+display_size:
+3.5 inches
+3.2 inches
+2.8 inches
+6.3 inches
+5.7 inches
+6.0 inches
+5.6 inches
+5.71 inches
+6.81 inches
+6.57 inches
+6.63 inches
+10.4 inches
+6.39 inches
+5.45 inches
+6.5 inches
+6.53 inches
+6.21 inches
+6.09 inches
+1.39 inches
+6.59 inches
+6.26 inches
+10.1 inches
+8.0 inches
+6.8 inches
+6.2 inches
+6.47 inches
+6.58 inches
+6.1 inches
+6.4 inches
+10.8 inches
+6.15 inches
+6.62 inches
+8.4 inches
+7.2 inches
+4.0 inches
+7.0 inches
+2.2 inches
+1.5 inches
+4.02 inches
+5.46 inches
+4.46 inches
+2.3 inches
+6.82 inches
+6.95 inches
+6.6 inches
+6.52 inches
+5.0 inches
+6.22 inches
+6.55 inches
+6.19 inches
+5.5 inches
+1.3 inches
+3.0 inches
+2.0 inches
+1.6 inches
+1.9 inches
+3.95 inches
+2.6 inches
+2.7 inches
+6.7 inches
+3.1 inches
+3.7 inches
+2.5 inches
+2.4 inches
+1.77 inches
+6.67 inches
+6.43 inches
+4.5 inches
+4.3 inches
+6.44 inches
+1.8 inches
+1.7 inches
+3.4 inches
+2.15 inches
+5.9 inches
+6.24 inches
+6.35 inches
+5.85 inches
+6.56 inches
+6.38 inches
+6.89 inches
+6.41 inches
+5.67 inches
+1.44 inches
+5.99 inches
+7.1 inches
+1.78 inches
+7.92 inches
+6.01 inches
+6.65 inches
+6.49 inches
+6.42 inches
+
+display_resolution:
+6 lines
+480 x 800 pixels, 5:3 ratio (~267 ppi density)
+320 x 480 pixels, 3:2 ratio (~180 ppi density)
+240 x 320 pixels, 4:3 ratio (~143 ppi density)
+1440 x 3040 pixels, 19:9 ratio (~537 ppi density)
+1080 x 2280 pixels, 19:9 ratio (~444 ppi density)
+1080 x 2160 pixels, 18:9 ratio (~402 ppi density)
+1080 x 2220 pixels, 18.5:9 ratio (~441 ppi density)
+320 x 240 pixels, 4:3 ratio
+128 x 160 pixels
+128 x 128 pixels, 1:1 ratio
+64 x 102 pixels, 16:10 ratio
+720 x 1520 pixels, 19:9 ratio (~295 ppi density)
+1080 x 2400 pixels, 20:9 ratio (~386 ppi density)
+1080 x 2400 pixels, 20:9 ratio (~401 ppi density)
+1080 x 2400 pixels, 20:9 ratio (~397 ppi density)
+1200 x 2000 pixels, 5:3 ratio (~224 ppi density)
+720 x 1600 pixels, 20:9 ratio (~278 ppi density)
+720 x 1560 pixels, 19.5:9 ratio (~269 ppi density)
+720 x 1440 pixels, 18:9 ratio (~295 ppi density)
+1080 x 2340 pixels, 19.5:9 ratio (~397 ppi density)
+1080 x 2340 pixels, 19.5:9 ratio (~392 ppi density)
+1080 x 2400 pixels, 20:9 ratio (~403 ppi density)
+1080 x 2340 pixels, 19.5:9 ratio (~415 ppi density)
+1080 x 2400 pixels, 20:9 ratio (~418 ppi density)
+720 x 1560 pixels, 19.5:9 ratio (~282 ppi density)
+1080 x 2400 pixels, 20:9 ratio (~405 ppi density)
+1080 x 2400 pixels, 20:9 ratio (~400 ppi density)
+454 x 454 pixels, 1:1 ratio (~326 ppi density)
+1080 x 2340 pixels, 19.5:9 ratio (~391 ppi density)
+1080 x 2340 pixels, 19.5:9 ratio (~412 ppi density)
+1920 x 1200 pixels, 16:10 ratio (~224 ppi density)
+1920 x 1200 pixels, 16:10 ratio (~283 ppi density)
+1200 x 1600 pixels, 4:3 ratio (~250 ppi density)
+1080 x 2400 pixels, 20:9 ratio (~387 ppi density)
+1080 x 2340 pixels, 19.5:9 ratio (~396 ppi density)
+720 x 1560 pixels, 19.5:9 ratio (~263 ppi density)
+720 x 1520 pixels, 19:9 ratio (~271 ppi density)
+720 x 1440 pixels, 18:9 ratio (~282 ppi density)
+1080 x 2340 pixels, 19.5:9 ratio (~398 ppi density)
+800 x 1280 pixels, 16:10 ratio (~189 ppi density)
+1200 x 2640 pixels (~441 ppi density)
+1080 x 2340 pixels, 19.5:9 ratio (~422 ppi density)
+1080 x 2310 pixels (~398 ppi density)
+2560 x 1600 pixels, 16:10 ratio (~280 ppi density)
+2200 x 2480 pixels (~414 ppi density)
+1080 x 2312 pixels (~415 ppi density)
+1176 x 2400 pixels, 18.5:9 ratio (~409 ppi density)
+1080 x 2340 pixels, 19.5:9 ratio (~389 ppi density)
+2560 x 1600 pixels, 16:10 ratio (~359 ppi density)
+1080 x 2340 pixels, 19.5:9 ratio (~403 ppi density)
+1080 x 2244 pixels, 18.7:9 ratio (~346 ppi density)
+600 x 1024 pixels, 16:9 ratio (~170 ppi density)
+240 x 320 pixels, 3.5 inches, 4:3 ratio (~114 ppi density)
+176 x 220 pixels, 2.2 inches (~128 ppi density)
+176 x 220 pixels (~128 ppi density)
+128 x 128 pixels, 1:1 ratio (~121 ppi density)
+480 x 854 pixels, 16:9 ratio (~244 ppi density)
+720 x 1280 pixels, 16:9 ratio (~269 ppi density)
+540 x 960 pixels, 16:9 ratio (~247 ppi density)
+320 x 240 pixels, 4:3 ratio (~174 ppi density)
+720 x 1640 pixels (~263 ppi density)
+720 x 1640 pixels (~258 ppi density)
+720 x 1600 pixels, 20:9 ratio (~266 ppi density)
+1080 x 2340 pixels, 19.5:9 ratio (~395 ppi density)
+720 x 1600 pixels, 20:9 ratio (~269 ppi density)
+176 x 220 pixels
+128 x 160 pixels, 11 lines
+128 x 144 pixels, 10 lines
+5 lines
+480 x 854 pixels, 16:9 ratio (~196 ppi density)
+1200 x 1920 pixels, 16:10 ratio (~224 ppi density)
+720 x 1520 pixels, 19:9 ratio (~270 ppi density)
+1080 x 2340 pixels, 19.5:9 ratio (~409 ppi density)
+1200 x 1920 pixels, 16:10 ratio (~283 ppi density)
+800 x 1280 pixels, 16:10 ratio (~149 ppi density)
+1080 x 2460 pixels (~395 ppi density)
+720 x 1520 pixels, 19:9 ratio (~259 ppi density)
+720 x 1512 pixels, 19:9 ratio (~293 ppi density)
+1080 x 2340 pixels, 19.5:9 ratio (~394 ppi density)
+720 x 1600 pixels, 20:9 ratio (~282 ppi density)
+720 x 1600 pixels, 20:9 ratio (~268 ppi density)
+480 x 960 pixels, 18:9 ratio (~197 ppi density)
+720 x 1520 pixels, 19:9 ratio (~276 ppi density)
+720 x 1520 pixels, 19:9 ratio (~269 ppi density)
+720 x 1512 pixels, 19:9 ratio (~271 ppi density)
+1080 x 2160 pixels, 18:9 ratio (~390 ppi density)
+1080 x 2248 pixels (~401 ppi density)
+1080 x 2160 pixels, 18:9 ratio (~389 ppi density)
+720 x 1280 pixels, 16:9 ratio (~267 ppi density)
+720 x 1280 pixels, 16:9 ratio (~294 ppi density)
+320 x 320 pixels, 1:1 ratio (~348 ppi density)
+240 x 320 pixels, 4:3 ratio (~133 ppi density)
+240 x 320 pixels, 4:3 ratio (~200 ppi density)
+128 x 128 pixels, 1:1 ratio (~113 ppi density)
+128 x 160 pixels, 7 lines
+128 x 160 pixels, 12 lines
+128 x 160 pixels, 12 lines (~108 ppi density)
+128 x 128 pixels, 8 lines, 1:1 ratio
+176 x 220 pixels, 7 lines
+128 x 160 pixels, 6 lines
+128 x 64 pixels, 2 lines, 18:9 ratio
+128 x 160 pixels, 10 lines
+128 x 90 pixels
+128 x 64 pixels, 18:9 ratio
+176 x 220 pixels, 10 lines
+128 x 128 pixels, 7 lines, 1:1 ratio
+4 x 12 chars
+1080 x 2340 pixels, 19.5:9 ratio (~390 ppi density)
+1080 x 2232 pixels, 18.5:9 ratio (~382 ppi density)
+720 x 1600 pixels, 20:9 ratio (~270 ppi density)
+1080 x 2232 pixels, 18.5:9 ratio (~403 ppi density)
+1080 x 2232 pixels, 18.5:9 ratio (~400 ppi density)
+480 x 800 pixels, 5:3 ratio (~233 ppi density)
+320 x 480 pixels, 3:2 ratio (~165 ppi density)
+320 x 480 pixels, 3:2 ratio (~146 ppi density)
+240 x 320 pixels, 4:3 ratio (~154 ppi density)
+240 x 320 pixels, 4:3 ratio (~148 ppi density)
+120 x 143 pixels
+5 x 13 to 25 chars
+240 x 320 pixels, 4:3 ratio
+720 x 1560 pixels, 19.5:9 ratio (~268 ppi density)
+1080 x 2300 pixels (~399 ppi density)
+1080 x 2340 pixels, 19.5:9 ratio (~385 ppi density)
+876 x 2142 pixels (~373 ppi density)
+1080 x 2280 pixels, 19:9 ratio (~400 ppi density)
+1080 x 2520 pixels, 21:9 ratio (~432 ppi density)
+720 x 1440 pixels, 18:9 ratio (~296 ppi density)
+320 x 480 pixels, 3:2 ratio (~186 ppi density)
+480 x 854 pixels, 16:9 ratio (~265 ppi density)
+240 x 320 pixels, 4:3 ratio (~182 ppi density)
+240 x 320 pixels, 4:3 ratio (~160 ppi density)
+176 x 220 pixels (~148 ppi density)
+176 x 220 pixels, 8 lines
+176 x 220 pixels, 8 lines (~148 ppi density)
+176 x 220 pixels, 9 lines
+208 x 320 pixels, 3:2 ratio
+128 x 160 pixels, 9 lines
+120 x 160 pixels, 9 lines, 4:3 ratio
+96 x 64 pixels, 3 lines + prompts, 3:2 ratio
+98 x 64 pixels, 5 lines, 3:2 ratio
+96 x 64 pixels, 3:2 ratio
+320 x 240 pixels, 8 lines, 4:3 ratio
+128 x 100 pixels, 7 lines x 16 chars
+126 x 64 pixels, 7 lines
+4 x 15 chars
+2 x 12 chars
+4 x 16 chars
+96 x 32 pixels, 4 x 12 chars
+96 x 32 pixels, 2 x 12 chars
+96 x 32 pixels, 4 lines
+1080 x 2340 pixels, 19.5:9 ratio (~414 ppi density)
+1080 x 2310 pixels (~411 ppi density)
+120 x 160 pixels, 4:3 ratio
+176 x 220 pixels (~141 ppi density)
+320 x 240 pixels, 4:3 ratio (~182 ppi density)
+132 x 160 pixels, 8 lines
+97 x 59 pixels, 5:3 ratio
+240 x 320 pixels, 4:3 ratio (~167 ppi density)
+120 x 160 pixels, 4:3 ratio (~113 ppi density)
+360 x 640 pixels, 16:9 ratio (~229 ppi density)
+1080 x 2520 pixels, 21:9 ratio (~441 ppi density)
+240 x 320 pixels, 4:3 ratio (~114 ppi density)
+1080 x 2400 pixels, 20:9 ratio (~402 ppi density)
+1440 x 3120 pixels, 19.5:9 ratio (~516 ppi density)
+1440 x 3120 pixels, 19.5:9 ratio (~515 ppi density)
+1080 x 2400 pixels, 20:9 ratio (~409 ppi density)
+1080 x 2400 pixels, 20:9 ratio (~408 ppi density)
+1080 x 2400 pixels, 20:9 ratio (~411 ppi density)
+1440 x 3168 pixels (~513 ppi density)
+1080 x 2340 pixels, 19.5:9 ratio (~402 ppi density)
+1080 x 2340 pixels, 19.5:9 ratio (~387 ppi density)
+480 x 854 pixels, 16:9 ratio (~218 ppi density)
+540 x 960 pixels, 16:9 ratio (~245 ppi density)
+320 x 320 pixels, 1:1 ratio (~189 ppi density)
+540 x 960 pixels, 16:9 ratio (~256 ppi density)
+132 x 176 pixels, 7 lines, 4:3 ratio
+132 x 176 pixels, 4:3 ratio
+101 x 80 pixels, 6 lines
+240 x 400 pixels, 5:3 ratio (~155 ppi density)
+480 x 800 pixels, 5:3 ratio (~301 ppi density)
+128 x 160 pixels, 8 lines
+128 x 160 pixels,  7 lines
+101 x 80 pixels, 8 lines
+1 x 12 chars
+3 x 12 chars
+1080 x 2400 pixels, 20:9 ratio (~399 ppi density)
+128 x 160 pixels (~114 ppi density)
+128 x 128 pixels, 1:1 ratio (~106 ppi density)
+101 x 80 pixels
+101 x 64 pixels
+128  x 128 pixels, 6 lines, 1:1 ratio
+96 x 64 pixels, 7 lines, 3:2 ratio
+64 x 96 pixels, 7 lines, 3:2 ratio
+160 x 120 pixels, 4:3 ratio
+96 x 64 pixels, 8 lines, 3:2 ratio
+up to 8 lines
+124 x 68 pixels, up to 8 lines, 17:9 ratio
+240 x 320 pixels, 60 x 80 mm, 4:3 ratio
+up to 7 lines
+3x 12 chars
+768 x 1024 pixels, 4:3 ratio (~160 ppi density)
+160 x 128 pixels (~102 ppi density)
+480 x 800 pixels, 5:3 ratio (~274 ppi density)
+240 x 320 pixels, 4:3 ratio (~186 ppi density)
+176 x 220 pixels (~122 ppi density)
+208 x 176 pixels
+162 x 176 pixels (324 x 352 support), 14 lines
+176 x 208 pixels
+94 x 64 pixels, 3:2 ratio
+128 x 144 pixels
+16 lines, 128 x 128 pixels
+128 x  96 pixels, 6 lines
+98 x 67 pixels, 5 lines, 3:2 ratio
+96 x 64 pixels, 6 lines, 3:2 ratio
+1080 x 2160 pixels, 18:9 ratio (~409 ppi density)
+480 x 1024 (~283 ppi density)
+854 x 480 pixels, 16:9 ratio (~288 ppi density)
+120 x 160 pixels, 4:3 ratio (~105 ppi density)
+240 x 320 pixels, 2.0 inch, 4:3 ratio
+240 x 320 pixels, 8 lines, 4:3 ratio (~182 ppi density)
+132 x 176 pixels, 9 lines, 4:3 ratio
+120 x 160 pixels, 7 lines, 4:3 ratio
+101 x 65 pixels, 5 lines
+101 x 56 pixels, 5 lines, 17:9 ratio
+101 x 80 pixels, 7 lines
+101 x 80 pixels, 7 lines (~86 ppi density)
+1644 x 3840 pixels, 21:9 ratio (~643 ppi density)
+1080 x 2520 pixels, 21:9 ratio (~457 ppi density)
+720 x 1680 pixels, 21:9 ratio (~295 ppi density)
+1080 x 2520 pixels, 21:9 ratio (~449 ppi density)
+96 x 92 pixels, 6 lines, 1:1 ratio
+96 x 72 pixels, 5 lines, 4:3 ratio
+97 x 32 pixels, 5 lines
+97 x 33 pixels, 4 x 16 chars
+1080 x 2270 pixels, 19:9 ratio (~403 ppi density)
+720 x 1640 pixels (~256 ppi density)
+720 x 1600 pixels, 20:9 ratio (~276 ppi density)
+480 x 960 pixels, 18:9 ratio (~179 ppi density)
+720 x 1548 pixels (~269 ppi density)
+720 x 1500 pixels (~268 ppi density)
+128 x 256 pixels, 18:9 ratio
+256 x 128 pixels, 18:9 ratio
+112 x 64 pixels, 16:9 ratio
+128 x 96 pixels, 4:3 ratio
+132 x 65 pixels, 18.5:9 ratio
+4 lines
+442 x 960 pixels, 19.5:9 ratio (~192 ppi density)
+1080 x 2246 pixels, 18.7:9 ratio (~402 ppi density)
+1080 x 2160 pixels, 18:9 ratio (~424 ppi density)
+720 x 1440 pixels, 18:9 ratio (~293 ppi density)
+1080 x 2280 pixels, 19:9 ratio (~377 ppi density)
+720 x 1512 pixels, 19:9 ratio (~286 ppi density)
+600 x 1280 pixels (~232 ppi density)
+480 x 960 pixels, 18:9 ratio (~195 ppi density)
+1080 x 1920 pixels, 16:9 ratio (~441 ppi density)
+1080 x 2258 pixels, 19:9 ratio (~374 ppi density)
+240 x 400 pixels, 5:3 ratio (~146 ppi density)
+1080 x 2376 pixels (~398 ppi density)
+1080 x 2408 pixels, 20:9 ratio (~402 ppi density)
+1080 x 2340 pixels, 19.5:9 ratio (~404 ppi density)
+720 x 1560 pixels, 19.5:9 ratio (~266 ppi density)
+1080 x 2256 pixels (~363 ppi density)
+720 x 1544 pixels (~268 ppi density)
+1080 x 2280 pixels, 19:9 ratio (~403 ppi density)
+128 x 143 pixels
+720 x 1560 pixels, 19.5:9 ratio (~291 ppi density)
+720 x 1500 pixels (~293 ppi density)
+720 x 1440 pixels, 18:9 ratio (~269 ppi density)
+1080 x 2400 pixels, 20:9 ratio (~395 ppi density)
+1440 x 3120 pixels, 19.5:9 ratio (~484 ppi density)
+1080 x 2340 pixels, 19.5:9 ratio (~386 ppi density)
+454 x 454 pixels, 1:1 ratio (~462 ppi density)
+368 x 448 pixels (~326 ppi density)
+2088 x 2250 pixels (~388 ppi density)
+720 x 1560 pixels, 19.5:9 ratio (~286 ppi density)
+1080 x 2160 pixels, 18:9 ratio (~403 ppi density)
+1080 x 2310 pixels (~354 ppi density)
+480 x 960 pixels, 18:9 ratio (~215 ppi density)
+1080 x 2340 pixels, 19.5:9 ratio (~388 ppi density)
+720 x 1560 pixels, 19.5:9 ratio (~265 ppi density)
+1080 x 2340 pixels, 19.5:9 ratio (~401 ppi density)
+
+features_sensors:
+V1
+Accelerometer
+Face ID, accelerometer, gyro, proximity, compass, barometer
+Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass, barometer
+Accelerometer, proximity
+Fingerprint (side-mounted), accelerometer, gyro, proximity, compass
+Accelerometer, proximity, compass
+Fingerprint (rear-mounted), accelerometer, proximity
+Fingerprint (rear-mounted), accelerometer, proximity, compass
+Fingerprint (under display, optical), accelerometer, gyro, proximity, compass
+Fingerprint (under display, optical), accelerometer, proximity, compass
+Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass
+Accelerometer, gyro, heart rate, barometer, compass
+Accelerometer, gyro, compass
+Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass, SAR
+Fingerprint (rear-mounted), accelerometer, gyro, proximity
+Iris scanner, fingerprint (rear-mounted), accelerometer, gyro, proximity, compass
+Fingerprint (under display, optical), accelerometer, gyro, proximity, compass, color spectrum
+Accelerometer, gyro, proximity, compass
+Accelerometer, gyro, heart rate, barometer, compass, SpO2
+Infrared face recognition, fingerprint (under display, optical), accelerometer, gyro, proximity, compass, color spectrum
+Fingerprint (side-mounted), accelerometer, proximity, compass
+Fingerprint (side-mounted), accelerometer, gyro, proximity, compass, barometer
+Face ID, fingerprint (under display, optical), accelerometer, gyro, proximity, barometer, compass
+Fingerprint (front-mounted), accelerometer, gyro, proximity, compass
+Fingerprint (rear-mounted), accelerometer, gyro, proximity, barometer, compass
+Fingerprint (under display, optical), accelerometer, gyro, proximity, compass, barometer
+Fingerprint (side-mounted), accelerometer
+Accelerometer, gyro, proximity, heart rate, barometer
+Accelerometer, gyro, barometer, compass
+Accelerometer, gyro, proximity
+Accelerometer, proximity, compassFingerprint (rear-mounted), accelerometer, proximity, compass - India only
+Fingerprint (side-mounted), accelerometer, gyro, proximity, barometer, compass, color spectrum
+Fingerprint (under display, optical), accelerometer, proximity
+Fingerprint (rear-mounted), accelerometer
+Barometer, altimeter
+Fingerprint (side-mounted), accelerometer, gyro, proximity, compass, heart rate, baroceptor, coulombmeter
+Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass, baroceptor, uv sensor
+Fingerprint (side-mounted), accelerometer, gyro, proximity, compass, barometer, coulombmeter
+Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass, coulombmeter
+Fingerprint (side-mounted), accelerometer, proximity
+Fingerprint (front-mounted), accelerometer, proximity, gyro, compass, barometer
+Fingerprint (under display, optical), accelerometer, gyro, compass
+Accelerometer, gyro, heart rate, barometer
+Fingerprint, accelerometer, gyro, proximity, compass
+Dual fingerprint (side-mounted), accelerometer, gyro, proximity, compass
+
+platform_os:
+Microsoft Windows Mobile 6.5.3 Professional
+Android 1.6 (Donut)
+Android 10
+Android 9.0 (Pie)
+Linux
+Huawei wearable platform
+Android 8.0 (Oreo)
+Android 4.2.2 (Jelly Bean)
+Android 9 (Pie)
+Android 8.1 (Oreo)
+Microsoft Windows Phone 7
+Android 4.0 (Ice Cream Sandwich)
+Android 4.1.2 (Jelly Bean)
+Microsoft Windows Mobile 2003 SE PocketPC
+Microsoft Smartphone 2003 OS
+Microsoft Windows Mobile Smartphone
+Android 4.4.2 (KitKat)
+Android 9.0 Pie (Go edition) - 32/2GBAndroid 9.0 (Pie) - 32/3GB
+Android 8.1 Oreo (Go edition)
+Android 5.1 (Lollipop)
+Android 9.0 (Pie) - 2GB RAM
+Android 6.0 (Marshmallow)
+Android 9.0 Pie (Go edition)
+Android 7.1.2 (Nougat)
+LG Wearable Platform
+Android 2.3 (Gingerbread)
+Android 2.3.5 (Gingerbread)
+Windows Mobile 6.1 Professional
+Microsoft Windows Mobile 5.0 PocketPC
+Microsoft Windows Mobile 2003 SE Smartphone
+Microsoft Smartphone 2003
+Microsoft Windows PocketPC
+Android 3.0 (Honeycomb)
+Android 1.5 (Cupcake)
+Android 2.0 (Eclair)
+Microsoft PocketPC 2003 SE
+Symbian 7.0
+Microsoft Windows CE.NET
+Android 10 (Go edition)
+KaiOS
+Symbian 9.4
+Microsoft Windows Mobile 5.0 Smartphone
+Microsoft Smartphone 2003 SE OS
+Microsoft Windows Mobile 2003 for PocketPC Phone Edition
+Android 4.4 (KitKat)
+Android 4.3 (Jelly Bean)
+Palm 5.4
+Android 4.1 (Jelly Bean)
+Microsoft Windows Mobile 2003 Smartphone
+Microsoft Windows Mobile 2002 PocketPC
+Microsoft Windows 2002 Smartphone
+Microsoft Smartphone 2003 SE
+Android 5.0 (Lollipop)
+Android 2.1 (Eclair)
+Symbian 7.0s
+Palm 5.2
+Palm 5.2.1
+Symbian
+Proprietary OS
+Microsoft Windows CE 3.0 for PocketPC
+Android 7.0 (Nougat)
+Android 2.2 (Froyo)
+Android 9.0 Pie
+Android 8.0 Oreo (Go edition)
+Proprietary wearable platform
+Android 9.1 Pie (Go edition)
+Android 7.1.1 (Nougat)
