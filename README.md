@@ -38,5 +38,6 @@ The following is the count of the number of phones with only one feature or sens
 ![image](https://github.com/WJGardnerJr/COP4020-Alternative-Language-Project-in-R/assets/135628958/169a65c2-47b4-44ba-94ad-35ed35a65c9d)
 
 The following is an account of the year (post-1999) where the most number of phones was launched, and also a count of how many were launched that year:
+
 ![image](https://github.com/WJGardnerJr/COP4020-Alternative-Language-Project-in-R/assets/135628958/d021103c-fce8-4535-9fce-30ccdd30923f)
 
