@@ -248,3 +248,53 @@ create_and_clean_cells <- function(df) {
 
   return(cells_map)
 }
+
+# This is the interactive version of the function that adds a new Cell object to the map.
+# It prompts the user for each field and reads the input. If the input is invalid or empty,
+# it repeats the prompt. The function returns the updated map.
+add_cell_to_map <- function(cell_map, data_frame) {
+  # Determine the row where the new data will be added
+  last_row <- nrow(data_frame) + 1  # Adding a new row at the end to append the new data
+  data_frame <- rbind(data_frame, NA) # Adding a new row at the end to append the new data in the data frame
+
+  # Prompts user for each field and read the input
+  for (column_name in names(data_frame)) {
+    repeat {
+      input_prompt <- paste("Enter new value for", column_name, ifelse(column_name == "display_size", "(in inches):", ":"))
+      input_value <- readline(prompt = input_prompt)
+
+      # Check for empty input and repeat if necessary
+      if (input_value == "") {
+        cat("Input cannot be empty. Please enter a value.\n")
+      } else {
+        # Check and assign the input value based on the column data type
+        if (column_name == "display_size") {
+          if (is.numeric(as.numeric(input_value))) {
+            data_frame[last_row, column_name] <- paste(input_value, "inches")  # Append "inches" for display size
+            break  # Exit the repeat loop after successful assignment
+          } else {
+            cat("Please enter a numeric value for display size.\n")
+          }
+        } else if (is.numeric(data_frame[[column_name]])) {
+          if (is.numeric(as.numeric(input_value))) {
+            data_frame[last_row, column_name] <- as.numeric(input_value)
+            break  # Exit the repeat loop after successful assignment
+          } else {
+            cat("Please enter a numeric value.\n")
+          }
+        } else {
+          data_frame[last_row, column_name] <- input_value
+          break  # Exit the repeat loop after a successful assignment
+        }
+      }
+    }
+  }
+  # Assuming new_cell is to be created or extracted directly from the data_frame
+  new_cell <- data_frame[last_row, ]
+  # Generate a key for the new Cell object and add it to the map
+  next_index <- length(ls(envir = cell_map)) + 1
+  key <- paste("Cell", next_index, sep = "_")
+  cell_map[[key]] <- new_cell
+  write.csv(data_frame, "add_example.csv", row.names = FALSE)
+  return(cell_map)
+}
