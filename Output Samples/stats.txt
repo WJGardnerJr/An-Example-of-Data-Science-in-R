@@ -67,3 +67,5 @@ launch_status: 2020
 
 Count of phones with only one feature/sensor: 432
 Count of phones with more than one feature/sensor: 568
+
+Year with the most phones launched after 1999: 2019 -->(Number of phones launched: 299)
