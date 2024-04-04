@@ -668,6 +668,26 @@ test_that("Object data types", {
  }
 })
 
+# Unit test #3 : Determines if the NA values are correct and if data was cleaned properly
+test_that("NA test", {
+ data <- read.csv("cells.csv")
+ cell_map <- create_and_clean_cells(data)
+ for (key in names(cell_map)) {
+   expect_true(is.character(slot(cell_map[[key]], "oem")) || is.na(slot(cell_map[[key]], "oem")), "oem should be character")
+   expect_true(is.character(slot(cell_map[[key]], "model")) || is.na(slot(cell_map[[key]], "model")), "model should be character")
+   expect_true(is.integer(slot(cell_map[[key]], "launch_announced")) || is.na(slot(cell_map[[key]], "launch_announced")), "launch_announced should be integer or NA")
+   expect_true(is.character(slot(cell_map[[key]], "launch_status")) || is.na(slot(cell_map[[key]], "launch_status")), "launch_status should be character")
+   expect_true(is.character(slot(cell_map[[key]], "body_dimensions")) || is.na(slot(cell_map[[key]], "body_dimensions")), "body_dimensions should be character")
+   expect_true(is.numeric(slot(cell_map[[key]], "body_weight")) || is.na(slot(cell_map[[key]], "body_weight")), "body_weight should be numeric or NA")
+   expect_true(is.character(slot(cell_map[[key]], "body_sim")) || is.na(slot(cell_map[[key]], "body_sim")), "body_sim should be character")
+   expect_true(is.character(slot(cell_map[[key]], "display_type")) || is.na(slot(cell_map[[key]], "display_type")), "display_type should be character")
+   expect_true(is.character(slot(cell_map[[key]], "display_size")) || is.na(slot(cell_map[[key]], "display_size")), "display_size should be character")
+   expect_true(is.character(slot(cell_map[[key]], "display_resolution")) || is.na(slot(cell_map[[key]], "display_resolution")), "display_resolution should be character")
+   expect_true(is.character(slot(cell_map[[key]], "features_sensors")) || is.na(slot(cell_map[[key]], "features_sensors")), "features_sensors should be character")
+   expect_true(is.character(slot(cell_map[[key]], "platform_os")) || is.na(slot(cell_map[[key]], "platform_os")), "platform_os should be character")
+ }
+})
+
 #######################################################
 # Main program starts here -- R has no "main" function
 #######################################################
