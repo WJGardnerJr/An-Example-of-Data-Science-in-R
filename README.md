@@ -6,6 +6,11 @@
 
 ---
 
+### __To run this code non-interactively, with hard-coded inputs:__
+- Simply run it as-is, that's all!
+
+---
+
 ### __To run this code interactively:__
 - First, comment out everything in the non-interactive section.
 - Second, uncomment the menu and the unit tests.
