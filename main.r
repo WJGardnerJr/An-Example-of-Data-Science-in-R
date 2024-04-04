@@ -498,6 +498,23 @@ update_data <- function(data_frame) {
   write.csv(data_frame, "updated_data.csv", row.names = FALSE) # Write the updated data frame to a .csv file
 }
 
+# This function calculates the unique values for each column in the data frame
+# and outputs them to a .txt file. It accepts a data frame and returns a
+# .txt file containing the unique values for each column.
+calculate_unique_values_and_output <- function(data) {
+  unique_counts <- sapply(data, function(col) length(unique(na.omit(col))))
+  # Open a connection to the output file
+  output_file <- "uniquevals.txt"
+  file_conn <- file(output_file, "w")
+  # Write unique values to the file with fixed-width formatting
+  cat(sprintf("%-20s %-20s\n", "Column Name", "Unique Values"), file = file_conn)
+  for (i in seq_along(unique_counts)) {
+    cat(sprintf("%-20s %-20s\n", names(unique_counts)[i], unique_counts[i]), file = file_conn, append = TRUE)
+  }
+  # Close the file connection
+  close(file_conn)
+}
+
 ######################################################
 # Non-interactive functions
 ######################################################
@@ -602,7 +619,7 @@ menu <- function() {
     cat("\nMenu Options:\n")
     cat("1: Add cells to the end and print the new CSV\n")
     cat("2: Remove a cell from the CSV and print a new CSV\n")
-    cat("3: Export the current new CSV\n")
+    cat("3: Export the cleaned data into a new CSV\n")
     cat("4: Update specified data and print a new CSV\n")
     cat("5: Calculate statistics\n")
     cat("6: Calculate unique values and give a descriptive .txt file\n")
@@ -672,7 +689,13 @@ cell_data <- lapply(sorted_keys, function(key) {
 cell_data_combined <- do.call(rbind, cell_data)
 
 #===============================================#
-#          Non-Interactive Options
+#     Interactive Options -- Uncomment to Run
+#===============================================#
+
+menu()
+
+#===============================================#
+#  Non-Interactive Options -- Uncomment to Run
 #===============================================#
 #cat("First, let's add some cells to the CSV at row 1001 and create a new CSV called add_example.csv.\n")
 #add_cell_to_map_ni(cell_objects_map, cell_data_combined)
