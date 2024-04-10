@@ -452,9 +452,6 @@ calc_stats_cells_and_output <- function(cell_data) {
     cell_data$launch_status <- as.numeric(as.character(cell_data$launch_status))
     launch_years <- cell_data$launch_status
 
-    # Debug: Check the cleaned data
-    print(summary(launch_years))
-
     # Filter years after 1999 and count the occurrences
     post_1999_counts <- table(launch_years[!is.na(launch_years) & launch_years > 1999])
     if (length(post_1999_counts) > 0) {
