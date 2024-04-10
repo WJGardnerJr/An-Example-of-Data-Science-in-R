@@ -68,4 +68,68 @@ launch_status: 2020
 Count of phones with only one feature/sensor: 432
 Count of phones with more than one feature/sensor: 568
 
-Year with the most phones launched after 1999: 2019 -->(Number of phones launched: 299)
+Year with the most phones launched after 1999: 2019 --> (Number of phones launched: 299)
+
+Average body weight for each OEM:
+Benefon: 190.00
+Gigabyte: 118.00
+Google: 167.25
+Haier: 91.57
+Honor: 185.04
+HP: 453.60
+HTC: 179.06
+Huawei: 207.54
+i-mate: 150.00
+i-mobile: 77.50
+Icemobile: 278.00
+Infinix: 181.57
+Innostream: 85.36
+Kyocera: 75.00
+Lava: 150.00
+Lenovo: 292.46
+LG: 131.80
+Maxon: 86.73
+Meizu: 183.00
+Micromax: 90.40
+Mitac: 128.50
+Mitsubishi: 114.67
+Motorola: 159.93
+NEC: 107.88
+Neonode: 94.00
+Nokia: 140.90
+O2: 141.09
+OnePlus: 194.67
+Oppo: 182.45
+Orange: 171.00
+Palm: 178.00
+Panasonic: 112.75
+Pantech: 97.40
+Philips: 127.83
+Plum: 134.00
+Qtek: 134.50
+Realme: 191.14
+Sagem: 104.03
+Samsung: 119.47
+Sendo: 80.80
+Sewon: 83.71
+Sharp: 113.47
+Siemens: 104.56
+Sony: 152.34
+Sony Ericsson: 95.00
+Spice: 79.00
+TCL: 189.75
+TECNO: 183.20
+Tel.Me.: 113.50
+Telit: 95.54
+Ulefone: 238.31
+Unnecto: 109.00
+Vertu: 160.00
+vivo: 189.86
+VK Mobile: 82.50
+Vodafone: 135.00
+Wiko: 160.86
+Xiaomi: 196.68
+Yezz: 119.10
+ZTE: 168.68
+
+OEM with the highest average body weight: HP (Average weight: 453.60)

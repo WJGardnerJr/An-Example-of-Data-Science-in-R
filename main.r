@@ -451,7 +451,51 @@ calc_stats_cells_and_output <- function(cell_data) {
     } else {
         writeLines("\nNo phones were launched after 1999 in the dataset.", file_conn)
     }
-}
+
+    if ("body_weight" %in% names(cell_data)) {
+      cell_data <- cell_data[!is.na(cell_data$body_weight), ]
+
+      # Initialize a list to hold the sum of weights and count of phones for each OEM
+      weights_sum_and_count <- list()
+
+      # Iterate over each cell to aggregate weights by OEM
+      for (i in seq_along(cell_data$body_weight)) {
+        weight <- cell_data$body_weight[i]
+        oem <- cell_data$oem[i]
+
+        # Next line if weight is NA or not a number
+        if (is.na(weight) || !is.numeric(weight)) next
+
+        # If the OEM key doesn't exist, initialize it
+        if (!oem %in% names(weights_sum_and_count)) {
+          weights_sum_and_count[[oem]] <- list(sum = 0, count = 0)
+        }
+
+        # Aggregate the total weight and increment the count
+        weights_sum_and_count[[oem]]$sum <- weights_sum_and_count[[oem]]$sum + weight
+        weights_sum_and_count[[oem]]$count <- weights_sum_and_count[[oem]]$count + 1
+      }
+
+      # Calculate the average weight for each OEM
+      average_weights <- unlist(lapply(weights_sum_and_count, function(x) x$sum / x$count))
+      names(average_weights) <- names(weights_sum_and_count)
+
+      # Find the OEM with the highest average weight
+      highest_average_index <- which.max(average_weights)
+      highest_average <- names(weights_sum_and_count)[highest_average_index]
+      highest_avg_weight <- average_weights[highest_average_index]
+
+      # Write the average weight for each OEM
+      writeLines("\nAverage body weight for each OEM:", file_conn)
+      for (oem in names(average_weights)) {
+        writeLines(sprintf("%s: %#.2f", oem, average_weights[oem]), file_conn)
+      }
+
+      # Write the OEM with the highest average weight
+      output_line <- sprintf("\nOEM with the highest average body weight: %s (Average weight: %#.2f)", highest_average, highest_avg_weight)
+      writeLines(output_line, file_conn)
+    }
+  }
   # Closes the file connection inside tryCatch to ensure it always gets closed
   close(file_conn)
   }, error = function(e) {
