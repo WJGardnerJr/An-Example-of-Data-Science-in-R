@@ -55,8 +55,9 @@ Subprograms in R are strange. They are not quite as normal, defined as a sort of
 
 The only library used here is testthat, which is installed for unit testing only. It was chosen for its simplicity and its utility; testthat provides built in ways to check for boolean true or false outcomes from running a code block. **NOTE THAT THIS DOES NOT WORK IN REPLIT! SEE ABOVE!**
 
-The company that has the highest weight of the phone body is Motorola, as seen in the figure below:
-![image](https://github.com/WJGardnerJr/COP4020-Alternative-Language-Project-in-R/assets/135628958/1e876632-c8f4-45bc-8d44-c394f7c72ad2)
+The company that has the highest average weight of the phone body is HP, as seen in the figure below:
+![image](https://github.com/WJGardnerJr/COP4020-Alternative-Language-Project-in-R/assets/135628958/025be779-089e-4df1-9d79-c9df96886bdd)
+
 
 The following phones were found to have been announced in one year and released in another:
 ![image](https://github.com/WJGardnerJr/COP4020-Alternative-Language-Project-in-R/assets/135628958/03c978b7-c379-4744-8d70-728980af3ecf)
