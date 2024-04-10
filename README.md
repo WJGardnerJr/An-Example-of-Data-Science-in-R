@@ -2,7 +2,12 @@
 ## Notes on Running this Code
 ### Per a conversation with Krishna, this code has been written as follows and in two ways: 
 - (i) this code can run as-is in a terminal, whereby all uncommented functions are non-interactive and the code runs with hard-coded additions/changes/deletions and
-- (ii) this code can be run interactively, requiring a local R environment and Rscript, whereby running Rscript.exe and the file is done as follows.
+- (ii) this code can be run interactively, requiring a local R environment and Rscript, whereby running Rscript.exe and the file is done as discussed in the section below.
+
+---
+
+### __To run this code non-interactively, with hard-coded inputs, and to use the unit-tests:__
+- Simply run it as-is, that's all!
 
 ---
 
@@ -50,8 +55,9 @@ Subprograms in R are strange. They are not quite as normal, defined as a sort of
 
 The only library used here is testthat, which is installed for unit testing only. It was chosen for its simplicity and its utility; testthat provides built in ways to check for boolean true or false outcomes from running a code block. **NOTE THAT THIS DOES NOT WORK IN REPLIT! SEE ABOVE!**
 
-The company that has the highest weight of the phone body is Motorola, as seen in the figure below:
-![image](https://github.com/WJGardnerJr/COP4020-Alternative-Language-Project-in-R/assets/135628958/1e876632-c8f4-45bc-8d44-c394f7c72ad2)
+The company that has the highest average weight of the phone body is HP, as seen in the figure below:
+![image](https://github.com/WJGardnerJr/COP4020-Alternative-Language-Project-in-R/assets/135628958/025be779-089e-4df1-9d79-c9df96886bdd)
+
 
 The following phones were found to have been announced in one year and released in another:
 ![image](https://github.com/WJGardnerJr/COP4020-Alternative-Language-Project-in-R/assets/135628958/03c978b7-c379-4744-8d70-728980af3ecf)
@@ -62,4 +68,6 @@ The following is the count of the number of phones with only one feature or sens
 The following is an account of the year (post-1999) where the most number of phones was launched, and also a count of how many were launched that year:
 
 ![image](https://github.com/WJGardnerJr/COP4020-Alternative-Language-Project-in-R/assets/135628958/d021103c-fce8-4535-9fce-30ccdd30923f)
+
+Big-O runtime analysis is included in the comments. Feel free to use Ctrl-F to find "Runtime." It is present for all major functions. For all intents and purposes, the non-interactive versions possess the same runtime.
 

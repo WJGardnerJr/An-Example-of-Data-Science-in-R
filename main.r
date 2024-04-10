@@ -622,7 +622,7 @@ update_data <- function(data_frame) {
 # object and adds it to the cell_map. It also writes the updated data frame
 # to a .csv file. It returns the updated cell_map.
 add_cell_to_map_ni <- function(cell_map, data_frame) {
-  last_row <- nrow(data_frame)
+  last_row <- nrow(data_frame) + 1
   for (column_name in names(data_frame)) {
     if (is.numeric(data_frame[[column_name]])) {
       data_frame[last_row, column_name] <- 1111  # new numeric value
