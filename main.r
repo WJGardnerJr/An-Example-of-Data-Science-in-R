@@ -206,9 +206,18 @@ clean_data <- function(value, column_name) {
       }
     },
     launch_status = {
-      matches <- regmatches(value, regexpr("\\b\\d{4}\\b", value)) # Matches any 4-digit year and uses RegEx to parse it
-      if (length(matches) > 0 && nchar(matches[1]) == 4) {
-        return(as.character(matches[1]))
+       # Defines a regex pattern that captures a four-digit year after "Released" or "Exp. release"
+      pattern <- "(?:Released\\s|Exp\\.\\srelease\\s)(\\d{4})"
+      # Finds matches for the pattern
+      matches <- regmatches(value, gregexpr(pattern, value))
+      
+      # Checks if there are any matches
+      if (length(matches) > 0 && length(matches[[1]]) > 0) {
+        # Extracts the first match which should be the year
+        year <- regmatches(value, regexec(pattern, value))[[1]][2]
+        if (nchar(year) == 4) {
+          return(year)
+        }
       } else {
         return(NA_character_)
       }
@@ -440,9 +449,14 @@ calc_stats_cells_and_output <- function(cell_data) {
     }
     if ("launch_status" %in% names(cell_data)) {
     # Ensure launch_status is treated as a numeric year for comparison
-    launch_years <- as.numeric(as.character(cell_data$launch_status))
+    cell_data$launch_status <- as.numeric(as.character(cell_data$launch_status))
+    launch_years <- cell_data$launch_status
+
+    # Debug: Check the cleaned data
+    print(summary(launch_years))
+
     # Filter years after 1999 and count the occurrences
-    post_1999_counts <- table(launch_years[launch_years > 1999])
+    post_1999_counts <- table(launch_years[!is.na(launch_years) & launch_years > 1999])
     if (length(post_1999_counts) > 0) {
         year_most_launches <- as.integer(names(which.max(post_1999_counts)))
         num_launches <- max(post_1999_counts)
@@ -451,7 +465,7 @@ calc_stats_cells_and_output <- function(cell_data) {
     } else {
         writeLines("\nNo phones were launched after 1999 in the dataset.", file_conn)
     }
-
+  }
     if ("body_weight" %in% names(cell_data)) {
       cell_data <- cell_data[!is.na(cell_data$body_weight), ]
 
@@ -495,9 +509,8 @@ calc_stats_cells_and_output <- function(cell_data) {
       output_line <- sprintf("\nOEM with the highest average body weight: %s (Average weight: %#.2f)", highest_average, highest_avg_weight)
       writeLines(output_line, file_conn)
     }
-  }
   # Closes the file connection inside tryCatch to ensure it always gets closed
-  close(file_conn)
+    close(file_conn)
   }, error = function(e) {
     cat("An error occurred: ", e$message, "\n")
     # Close the file connection in case it's still open when an error occurs
